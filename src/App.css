@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 .App {
   text-align: center;
 }
@@ -5,6 +7,10 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+body {
+  background-color: rgba(221, 229, 217, 1);
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -28,11 +34,353 @@
   color: #61dafb;
 }
 
+a:link {
+  color: rgb(114, 114, 114) !important;
+  text-decoration: none !important;
+}
+
+a:active {
+  color: rgb(114, 114, 114) !important;
+}
+
+a:visited {
+  color: rgb(114, 114, 114)!important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.dot>div>div>div {
+  width: 4px !important;
+  height: 4px !important;
+}
+.dot>div {
+z-index: 999 !important;
+}
+
+.leaflet-control-attribution.leaflet-control {
+  display: none !important;
+}
+
+.leaflet-control-zoom.leaflet-bar.leaflet-control {
+  outline: 1px solid rgba(163, 75, 75, 0.5);
+  outline-offset: 3px;
+  -webkit-outline-radius: 0px !important;
+  -moz-outline-radius: 0px !important;
+}
+
+.leaflet-control-zoom-in {
+  background: rgba(221, 229, 217, 1);
+}
+
+.leaflet-touch .leaflet-bar a {
+  background: rgba(221, 229, 217, 1) !important;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.sentence {
+  font-family: 'IBM Plex Mono', monospace !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400 !important;
+  font-size: 2.3em !important;
+  letter-spacing: 5px !important;
+  line-height: 1em !important;
+  -webkit-text-fill-color: rgba(251, 90, 80, 1);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(80, 80, 80);
+  text-shadow:
+    10px 10px rgba(251, 90, 80, 0.1) !important;
+  padding-bottom: 10px !important;
+
+}
+
+.title {
+  font-family: 'IBM Plex Mono', monospace !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400 !important;
+  font-size: 8em !important;
+  letter-spacing: 5px !important;
+  line-height: 1em !important;
+  -webkit-text-fill-color: rgba(251, 90, 80, 1);
+  /* -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(80, 80, 80); */
+  text-shadow:
+    10px 10px rgba(251, 90, 80, 0.1) !important;
+  /* padding-bottom: 10px !important; */
+  position: absolute;
+  z-index: 998;
+  cursor: none;
+}
+
+.notemap {
+  font-family: 'IBM Plex Mono', monospace !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-transform: uppercase;
+  font-weight: 100 !important;
+  font-size: 0.08em !important;
+  letter-spacing: 5px !important;
+  line-height: 1em !important;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(114, 114, 114);
+  text-shadow:
+    10px 10px rgba(146, 145, 145, 0.1) !important;
+  padding-bottom: 20px !important;
+  /* text-align: center; */
+  animation: opacity 2s ease-in-out infinite alternate;
+  opacity: 1;
+  position: absolute;
+  z-index: 998;
+  padding: 10px;
+}
+
+.MuiSnackbarContent-message {
+  line-height: 1.5em !important;
+}
+
+.fish {
+  font-family: 'IBM Plex Mono', monospace !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400 !important;
+  font-size: 1em !important;
+  letter-spacing: 3px !important;
+  line-height: 1.4em !important;
+  -webkit-text-fill-color: rgb(105, 105, 105);
+  -webkit-text-stroke-width: 0px;
+  -webkit-text-stroke-color: rgb(114, 114, 114);
+  text-shadow:
+    10px 10px rgba(146, 145, 145, 0.1) !important;
+}
+
+.fishChallenges {
+  font-family: 'IBM Plex Mono', monospace !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400 !important;
+  font-size: 0.9em !important;
+  letter-spacing: 2px !important;
+  line-height: 1.4em !important;
+  -webkit-text-fill-color: rgb(105, 105, 105);
+  -webkit-text-stroke-width: 0px;
+  -webkit-text-stroke-color: rgb(114, 114, 114);
+  text-shadow:
+    10px 10px rgba(146, 145, 145, 0.1) !important;
+  height: 100%;
+  text-transform: uppercase;
+}
+
+.MuiTableCell-root {
+  font-family: 'IBM Plex Mono', monospace !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 500 !important;
+  font-size: 0.8em !important;
+  -webkit-text-fill-color: rgb(105, 105, 105);
+  -webkit-text-stroke-width: 0px;
+  -webkit-text-stroke-color: rgb(114, 114, 114);
+}
+
+.chall {
+  outline: 1px solid rgb(114, 114, 114, .1);
+  outline-offset: 3px;
+  box-shadow: -6px -6px 0 0 rgba(252, 250, 247, 1), -7px -7px 0 0 rgba(114, 114, 114, 1) !important;
+}
+
+.MuiButton-text {
+  -webkit-text-fill-color: rgb(114, 114, 114, 1);
+  -webkit-text-stroke-width: 0;
+  -webkit-text-stroke-color: rgb(114, 114, 114, .5);
+  animation: opacity 2s ease-in-out infinite alternate;
+  -webkit-animation: opacity 2s ease-in-out infinite alternate;
+}
+
+.MuiButton-text:hover {
+  background-color: antiquewhite !important;
+  -webkit-text-fill-color: rgb(207, 175, 175);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(163, 75, 75, 0.5);
+}
+
+
+
+@keyframes opacity {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.footer {
+  vertical-align: top;
+  font-size: 0.8em !important;
+}
+
+.footert {
+  font-family: 'IBM Plex Mono', monospace !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400 !important;
+  font-size: 0.85em !important;
+}
+
+.MuiSnackbar-root.MuiSnackbar-anchorOriginBottomLeft {
+  position: relative;
+  margin-top: 24px;
+}
+
+.MuiPaper-root {
+  box-shadow: none !important;
+  outline: 1px solid rgba(146, 145, 145, 0.4);
+  background-color: rgba(252, 250, 247, 1) !important;
+  outline-offset: 1px;
+  border-radius: 0% !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation6.MuiSnackbarContent-root {
+  background-color: rgba(252, 250, 247, 1);
+  font-family: 'IBM Plex Mono', monospace !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: lighter !important;
+  font-size: 0.3em !important;
+  box-shadow: none;
+  outline: 1px solid rgb(80, 80, 80);
+  outline-offset: 3px;
+  height: 100px;
+  overflow: auto;
+}
+
+.MuiSvgIcon-root.MuiSvgIcon-fontSizeSmall {
+  color: rgba(80, 80, 80, 0.8);
+}
+
+.MuiTouchRipple-root {
+  outline: 1px solid rgba(146, 145, 145, 0.2);
+  outline-offset: -8px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .sentence {
+    font-weight: 400 !important;
+    font-size: 1.3em !important;
+    letter-spacing: 4px !important;
+    line-height: 1.1em !important;
+  }
+
+  .MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation6.MuiSnackbarContent-root {
+    font-size: 0.3em !important;
+  }
+
+  .portrait {
+    background-size: 100vw !important;
+    height: 100vh;
+  }
+
+  .deforestation {
+    background-size: 100vw !important;
+    height: 100vh;
+  }
+
+  .agro {
+    background-size: 100vw !important;
+    height: 100vh;
+    background-position: bottom right;
+  }
+
+  .water {
+    background-size: 100vw !important;
+    height: 100vh;
+    background-position: bottom right;
+  }
+
+  .tradkiln {
+    display: none;
+  }
+
+  .basemap {
+    display: none;
+  }
+
+  .MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation6.MuiSnackbarContent-root {
+    height: 80px;
+  }
+
+  .MuiButtonBase-root.MuiButton-root.MuiButton-text {
+    padding: 2px;
+  }
+
+  .MuiTableCell-root {
+    font-weight: 400 !important;
+    font-size: 0.6em !important;
+  }
+
+  .fish {
+    font-size: 0.8em !important;
+  }
+
+  .fishChallenges {
+    font-size: 0.6em !important;
+    letter-spacing: 0px !important;
+    padding: 2px !important;
+
+  }
+
+  .MuiCardContent-root {
+    /* padding: 2px !important; */
+  }
+
+  .MuiSnackbarContent-message {
+    font-size: 1.5em !important;
+  }
+
+  .logo {
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+    margin-top: 2%;
+    margin-left: 87%;
+  }
+
+  .license {
+    background-size: 100px 25px;
+    width: 100px;
+    height: 25px;
+  }
+
 }
