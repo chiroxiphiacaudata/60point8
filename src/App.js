@@ -10,6 +10,7 @@ import Snackbar from '@mui/material/Snackbar';
 import CloseIcon from '@mui/icons-material/Close';
 
 import Basemap from './basemap';
+import Defmap from './defmap';
 
 
 const App = () => {
@@ -49,13 +50,40 @@ const App = () => {
           <FullpageNavigation style={{}}> </FullpageNavigation>
         </div>
 
-        <FullpageSection style={{
-          backgroundColor: 'rgba(221, 229, 217, 1)',
-          height: '90vh',
-          padding: '1em',
-        }}>
-          <Basemap />
-        </FullpageSection>
+        <FullPageSections>
+
+          <FullpageSection style={{
+            backgroundColor: 'rgba(221, 229, 217, 1)',
+            height: '100vh',
+            padding: '1em',
+          }}>
+            <Basemap />
+          </FullpageSection>
+
+          <FullpageSection style={{
+            height: '45vh',
+            padding: '1em',
+          }}>
+            <CardContent sx={{ maxWidth: 800 }}>
+              <Typography component='div' className="sentence" sx={{ mt: 2 }}>Le territoire de Rutshuru<Button onClick={handleClick}>ꔮ</Button>
+                <Snackbar
+                  open={open}
+                  autoHideDuration={10000}
+                  onClose={handleCloseNote}
+                  message="Le territoire de Rutshuru est coincé entre une unité de basse altitude, le nord du Bwisha, une plaine fluvio-lacustre où coulent les rivières Ishasha et Rutshuru avant de se jeter dans le lac Edouard, et une unité de haute altitude, le sud du Bwisha, constituée de massifs et de plateaux d'origine volcanique."
+                  action={action} /><br /><br /></Typography>
+            </CardContent>
+          </FullpageSection>
+
+          <FullpageSection style={{
+            backgroundColor: 'rgba(221, 229, 217, 1)',
+            height: '100vh',
+            padding: '1em',
+          }}>
+            <Defmap />
+          </FullpageSection>
+
+        </FullPageSections>
 
       </Fullpage></>
   )

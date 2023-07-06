@@ -64,11 +64,17 @@ a:visited {
 }
 
 .dot>div>div>div {
-  width: 4px !important;
-  height: 4px !important;
+  width: 5px !important;
+  height: 5px !important;
+  background-color: rgba(251, 90, 80, 1) !important;
 }
+
 .dot>div {
 z-index: 999 !important;
+}
+
+.leaflet-container {
+background: rgba(221, 229, 217, 1) !important;
 }
 
 .leaflet-control-attribution.leaflet-control {
@@ -76,7 +82,7 @@ z-index: 999 !important;
 }
 
 .leaflet-control-zoom.leaflet-bar.leaflet-control {
-  outline: 1px solid rgba(163, 75, 75, 0.5);
+  outline: 1px solid rgba(251, 90, 80, 1) ;
   outline-offset: 3px;
   -webkit-outline-radius: 0px !important;
   -moz-outline-radius: 0px !important;
@@ -108,9 +114,9 @@ z-index: 999 !important;
   font-size: 2.3em !important;
   letter-spacing: 5px !important;
   line-height: 1em !important;
-  -webkit-text-fill-color: rgba(251, 90, 80, 1);
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: rgb(80, 80, 80);
+  -webkit-text-stroke-color: rgba(5, 5, 5, 1);
   text-shadow:
     10px 10px rgba(251, 90, 80, 0.1) !important;
   padding-bottom: 10px !important;
@@ -221,13 +227,32 @@ z-index: 999 !important;
 }
 
 .MuiButton-text:hover {
-  background-color: antiquewhite !important;
-  -webkit-text-fill-color: rgb(207, 175, 175);
+  background-color: rgba(251, 90, 80, 1) !important;
+  -webkit-text-fill-color: white;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: rgba(163, 75, 75, 0.5);
 }
 
+.logo {
+  background: url("../public/logo192.png") no-repeat;
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  margin-top: 3%;
+  margin-left: 95%;
+  z-index: 1;
+}
 
+.buttons {
+  -ms-transform: translate(0%, -100%);
+  transform: translate(0%, -100%);
+  float: left;
+  position: absolute;
+  z-index: 999;
+  top: 10%;
+}
 
 @keyframes opacity {
   0% {
@@ -264,7 +289,7 @@ z-index: 999 !important;
 .MuiPaper-root {
   box-shadow: none !important;
   outline: 1px solid rgba(146, 145, 145, 0.4);
-  background-color: rgba(252, 250, 247, 1) !important;
+  background-color: rgba(221, 229, 217, 1) !important;
   outline-offset: 1px;
   border-radius: 0% !important;
   overflow: hidden;
@@ -295,10 +320,19 @@ z-index: 999 !important;
 }
 
 
+
+
 @media only screen and (max-width: 600px) {
   .sentence {
     font-weight: 400 !important;
     font-size: 1.3em !important;
+    letter-spacing: 4px !important;
+    line-height: 1.1em !important;
+  }
+
+  .title {
+    font-weight: 400 !important;
+    font-size: 5.5em !important;
     letter-spacing: 4px !important;
     line-height: 1.1em !important;
   }
@@ -375,6 +409,7 @@ z-index: 999 !important;
     height: 40px;
     margin-top: 2%;
     margin-left: 87%;
+    display: none;
   }
 
   .license {
