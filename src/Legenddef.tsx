@@ -37,7 +37,7 @@ export default function Legenddef() {
 
   return (
     <div>
-      <Button sx={stybut} onClick={handleOpen}>Légende</Button>
+      <Button sx={stybut} onClick={handleOpen}>Déforestation le long de l'axe routier Ishasha-Rutshuru - Légende</Button>
       <Modal
         aria-labelledby="transition-modal-title"
         aria-describedby="transition-modal-description"
@@ -56,7 +56,7 @@ export default function Legenddef() {
               <Close />
             </IconButton>
             <Typography>
-              Légende
+              Déforestation le long de l'axe routier Ishasha-Rutshuru
             </Typography>
           </Box>
         </Fade>
