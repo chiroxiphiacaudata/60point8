@@ -145,6 +145,26 @@ background: rgba(221, 229, 217, 1) !important;
   cursor: none;
 }
 
+.titleh2 {
+  font-family: 'IBM Plex Mono', monospace !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400 !important;
+  font-size: 4em !important;
+  letter-spacing: 5px !important;
+  line-height: 1em !important;
+  -webkit-text-fill-color: rgba(251, 90, 80, 1);
+  /* -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(80, 80, 80); */
+  text-shadow:
+    10px 10px rgba(251, 90, 80, 0.1) !important;
+  /* padding-bottom: 10px !important; */
+  position: absolute;
+  z-index: 998;
+  cursor: none;
+}
+
+
 .notemap {
   font-family: 'IBM Plex Mono', monospace !important;
   -webkit-font-smoothing: antialiased;
@@ -217,12 +237,37 @@ background: rgba(221, 229, 217, 1) !important;
 
 .css-ahj2mt-MuiTypography-root {
   font-family: 'Space Mono', monospace !important;
-  font-size: 0.9em !important;
+  font-size: 0.8em !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-fill-color: rgba(5, 5, 5, 1);
 }
 
+.css-78trlr-MuiButtonBase-root-MuiIconButton-root{
+  transform: translate(-50%, -50%);
+}
+
+.css-9l3uo3 {
+  font-family: 'Space Mono', monospace !important;
+  font-size: 0.8em !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-fill-color: rgba(5, 5, 5, 1);
+}
+
+.defgrad{
+  background: linear-gradient(90deg, #faf295, rgba(251, 90, 80, 1));
+  width: 200px;
+  height: 10px;
+  margin: 5px;
+}
+
+.defalert {
+  background-color: #7fbffb;
+  width: 50px;
+  height: 10px;
+  margin: 5px;
+}
 
 .chall {
   outline: 1px solid rgb(114, 114, 114, .1);

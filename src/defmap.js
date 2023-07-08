@@ -20,11 +20,12 @@ const Defmap = () => {
 
         <>
 
-            {/* <CardContent sx={{ maxWidth: 800 }}>
-                <Typography component='div' className="notemap" sx={{ mt: 2 }}><a href='https://www.alessandromusetta.com/geo/tiles/60point8/def/map.html' target='_blank' rel='noopener noreferrer'>Interact with the map</a></Typography>
-            </CardContent> */}
+            <CardContent sx={{ maxWidth: 350 }}>
+                <Typography component='div' className="titleh2" sx={{ mt: 2 }}>UNE PERTE RADICALE DE RESSOURCES FORESTIÈRES
+                    <Typography component='div' className="notemap" sx={{ mt: 2 }}><a href='https://www.alessandromusetta.com/geo/tiles/60point8/def/map.html' target='_blank' rel='noopener noreferrer'>Interact with the map</a></Typography>
+                </Typography>
+            </CardContent>
 
-            <Legenddef />
 
             <MapContainer
                 doubleClickZoom={false}
@@ -44,6 +45,8 @@ const Defmap = () => {
                 <ZoomControl position="bottomright" />
 
             </MapContainer>
+
+            <Legenddef />
 
 
         </>
