@@ -83,6 +83,14 @@ const App = () => {
             <Defmap />
           </FullpageSection>
 
+          <FullpageSection style={{
+            height: '45vh',
+            padding: '1em',
+          }}>
+            <CardContent sx={{ maxWidth: 800 }}>
+            </CardContent>
+          </FullpageSection>
+
         </FullPageSections>
 
       </Fullpage></>

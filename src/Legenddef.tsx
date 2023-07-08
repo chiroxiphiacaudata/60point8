@@ -14,8 +14,9 @@ import IconButton from '@mui/material/IconButton';
 
 const style = {
   position: 'absolute' as 'absolute',
-  top: '10%',
-  left: '10%',
+  top: '50%',
+  left: '50%',
+  transform: 'translate(-50%, -50%)',
   width: 400,
   bgcolor: 'rgba(221, 229, 217, 1)',
   border: '2px solid rgba(251, 90, 80, 1)',
