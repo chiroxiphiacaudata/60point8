@@ -164,7 +164,6 @@ background: rgba(221, 229, 217, 1) !important;
   cursor: none;
 }
 
-
 .notemap {
   font-family: 'IBM Plex Mono', monospace !important;
   -webkit-font-smoothing: antialiased;
@@ -236,7 +235,7 @@ background: rgba(221, 229, 217, 1) !important;
 }
 
 .css-ahj2mt-MuiTypography-root {
-  font-family: 'Space Mono', monospace !important;
+  font-family: 'IBM Plex Mono', monospace !important;
   font-size: 0.8em !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -248,8 +247,16 @@ background: rgba(221, 229, 217, 1) !important;
 }
 
 .css-9l3uo3 {
-  font-family: 'Space Mono', monospace !important;
+  font-family: 'IBM Plex Mono', monospace !important;
   font-size: 0.8em !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-fill-color: rgba(5, 5, 5, 1);
+}
+
+.css-8ei86i{
+  font-family: 'IBM Plex Mono', monospace !important;
+  font-size: 0.75em !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-fill-color: rgba(5, 5, 5, 1);

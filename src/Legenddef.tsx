@@ -62,7 +62,7 @@ export default function Legenddef() {
               <Divider />
             </Typography>
             <Typography>
-              <div className='defgrad'></div>Pertes brutes de couvert forestier de 2001 à 2022<br /><br />
+              <div className='defgrad'></div>Pertes brutes de couvert forestier de 2001 à 2022 (jaune moins récent, rouge plus récent)<br /><br />
               <div className='defalert'></div>Alerte à la déforestation en 2023<br /><br /><br />
             </Typography>
             <Typography>
