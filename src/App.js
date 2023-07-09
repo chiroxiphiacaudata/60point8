@@ -88,9 +88,10 @@ const App = () => {
             padding: '1em',
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
+              <Typography component='div' className="sentence" sx={{ mt: 2 }}></Typography>
             </CardContent>
           </FullpageSection>
-
+          
         </FullPageSections>
 
       </Fullpage></>
