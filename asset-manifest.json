@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/60point8/static/css/main.ba922255.css",
-    "main.js": "/60point8/static/js/main.c15a608a.js",
+    "main.css": "/60point8/static/css/main.d9179b45.css",
+    "main.js": "/60point8/static/js/main.bf222f2f.js",
     "static/js/787.0961753b.chunk.js": "/60point8/static/js/787.0961753b.chunk.js",
+    "static/media/planches.jpg": "/60point8/static/media/planches.dba5495fdc0b9f971c97.jpg",
+    "static/media/makala.jpg": "/60point8/static/media/makala.92668b20f8429832ddc4.jpg",
+    "static/media/viande.jpg": "/60point8/static/media/viande.73369f367cc446e09b07.jpg",
+    "static/media/N.png": "/60point8/static/media/N.584316fb800ed316eb35.png",
+    "static/media/W.png": "/60point8/static/media/W.031886ba029a6f6cd0e4.png",
+    "static/media/F.png": "/60point8/static/media/F.d33e95578d7fba12ac13.png",
     "static/media/logo192.png": "/60point8/static/media/logo192.1dabf6b07d8b76f89a63.png",
     "index.html": "/60point8/index.html",
-    "main.ba922255.css.map": "/60point8/static/css/main.ba922255.css.map",
-    "main.c15a608a.js.map": "/60point8/static/js/main.c15a608a.js.map",
+    "main.d9179b45.css.map": "/60point8/static/css/main.d9179b45.css.map",
+    "main.bf222f2f.js.map": "/60point8/static/js/main.bf222f2f.js.map",
     "787.0961753b.chunk.js.map": "/60point8/static/js/787.0961753b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba922255.css",
-    "static/js/main.c15a608a.js"
+    "static/css/main.d9179b45.css",
+    "static/js/main.bf222f2f.js"
   ]
 }
