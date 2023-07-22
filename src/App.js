@@ -12,6 +12,8 @@ import CloseIcon from '@mui/icons-material/Close';
 import Basemap from './basemap';
 import Defmap from './defmap';
 import Blockmap from './blockmap';
+import Endangered from './endangered';
+import Fencemap from './fencemap';
 
 
 const App = () => {
@@ -81,7 +83,7 @@ const App = () => {
             padding: '1em',
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-            <Typography component='div'  sx={{ mt: 1, fontSize:9, fontFamily:'IBM Plex Mono'}}>Danny TORRES, Leopold RUTINIGIRWA, Anoumou KEMAVO, Thomas DUFOUR, Maxence RAGEADE</Typography>
+              <Typography component='div' sx={{ mt: 1, fontSize: 9, fontFamily: 'IBM Plex Mono' }}>Danny TORRES, Leopold RUTINIGIRWA, Anoumou KEMAVO, Thomas DUFOUR, Maxence RAGEADE</Typography>
             </CardContent>
           </FullpageSection>
 
@@ -113,7 +115,7 @@ const App = () => {
             padding: '1em',
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-            <Typography component='div'  sx={{ mt: 1, fontSize:9, fontFamily:'IBM Plex Mono'}}>Danny TORRES, Leopold RUTINIGIRWA, Anoumou KEMAVO, Thomas DUFOUR, Maxence RAGEADE</Typography>
+              <Typography component='div' sx={{ mt: 1, fontSize: 9, fontFamily: 'IBM Plex Mono' }}>Danny TORRES, Leopold RUTINIGIRWA, Anoumou KEMAVO, Thomas DUFOUR, Maxence RAGEADE</Typography>
             </CardContent>
           </FullpageSection>
 
@@ -160,11 +162,58 @@ const App = () => {
             padding: '1em',
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-            <Typography component='div'  sx={{ mt: 1, fontSize:9, fontFamily:'IBM Plex Mono'}}> Martin Harvey</Typography>
+              <Typography component='div' sx={{ mt: 1, fontSize: 9, fontFamily: 'IBM Plex Mono' }}> Martin Harvey</Typography>
             </CardContent>
           </FullpageSection>
 
-          
+          <FullpageSection style={{
+            backgroundColor: 'rgba(221, 229, 217, 1)',
+            height: '100vh',
+            padding: '1em',
+          }}>
+            <Endangered />
+          </FullpageSection>
+
+          <FullpageSection className='ebola' style={{
+            backgroundColor: 'rgba(221, 229, 217, 1)',
+            height: '100vh',
+            padding: '1em',
+          }}>
+            <CardContent sx={{ maxWidth: 800 }}>
+              <Typography component='div' className="sentence" sx={{ mt: 2 }}>Text<Button onClick={handleClick}>ꔮ</Button>
+                <Snackbar
+                  open={open}
+                  autoHideDuration={10000}
+                  onClose={handleCloseNote}
+                  message="Our seeds fail even if the soils are fertile because we can no longer count with the frequency and intensity of rainfall. Periods of prolonged drought are affecting planting and crop yields. Severe drought, especially in the first season of 2019, affected farmers who planted oranges and mangoes, because it did not allow seedlings to establish properly in the field and they eventually dried out."
+                  action={action} /><Button onClick={handleClick}>MAP</Button>
+                <Snackbar
+                  open={open}
+                  autoHideDuration={10000}
+                  onClose={handleCloseNote}
+                  message="Since 2016, Lake Albert's water level has been rising steadily, and during the rainy season it floods a large number of fishing villages. The map shows the areas that have been flooded by water over the past five years. Lack of natural shore defences causes the lake to easily flood such flat areas."
+                  action={action} /><br /><br /></Typography>
+            </CardContent>
+          </FullpageSection>
+
+          <FullpageSection className='fence' style={{
+            height: '80vh',
+            padding: '1em',
+          }}>
+            <CardContent sx={{ maxWidth: 800 }}>
+              <Typography component='div' sx={{ mt: 1, fontSize: 9, fontFamily: 'IBM Plex Mono' }}></Typography>
+            </CardContent>
+          </FullpageSection>
+
+          <FullpageSection style={{
+            backgroundColor: 'rgba(221, 229, 217, 1)',
+            height: '100vh',
+            padding: '1em',
+          }}>
+            <Fencemap />
+          </FullpageSection>
+
+
         </FullPageSections>
 
       </Fullpage></>
