@@ -2,7 +2,6 @@ import React from 'react';
 import { MapContainer, TileLayer } from "react-leaflet";
 import { ZoomControl } from 'react-leaflet/ZoomControl'
 import 'leaflet/dist/leaflet.css';
-import Fullpage, { FullPageSections, FullpageSection, FullpageNavigation } from '@ap.cx/react-fullpage';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import Legenddef from './Legenddef.tsx';

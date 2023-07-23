@@ -14,6 +14,8 @@ import Defmap from './defmap';
 import Blockmap from './blockmap';
 import Endangered from './endangered';
 import Fencemap from './fencemap';
+import Plante from './plante';
+import Plante_fig from './plante_fig';
 
 
 const App = () => {
@@ -108,6 +110,22 @@ const App = () => {
             padding: '1em',
           }}>
             <Defmap />
+          </FullpageSection>
+
+          <FullpageSection style={{
+            backgroundColor: 'rgba(221, 229, 217, 1)',
+            height: '100vh',
+            padding: '1em',
+          }}>
+            <Plante />
+          </FullpageSection>
+
+          <FullpageSection style={{
+            backgroundColor: 'rgba(221, 229, 217, 1)',
+            height: '100vh',
+            padding: '1em',
+          }}>
+            <Plante_fig />
           </FullpageSection>
 
           <FullpageSection className='makala' style={{
