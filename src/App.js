@@ -231,6 +231,29 @@ const App = () => {
             <Fencemap />
           </FullpageSection>
 
+          <FullpageSection className='armed' style={{
+            backgroundColor: 'rgba(221, 229, 217, 1)',
+            height: '100vh',
+            padding: '1em',
+          }}>
+            <CardContent sx={{ maxWidth: 800 }}>
+              <Typography component='div' className="sentence" sx={{ mt: 2 }}>Text<Button onClick={handleClick}>ꔮ</Button>
+                <Snackbar
+                  open={open}
+                  autoHideDuration={10000}
+                  onClose={handleCloseNote}
+                  message="Our seeds fail even if the soils are fertile because we can no longer count with the frequency and intensity of rainfall. Periods of prolonged drought are affecting planting and crop yields. Severe drought, especially in the first season of 2019, affected farmers who planted oranges and mangoes, because it did not allow seedlings to establish properly in the field and they eventually dried out."
+                  action={action} /><Button onClick={handleClick}>MAP</Button>
+                <Snackbar
+                  open={open}
+                  autoHideDuration={10000}
+                  onClose={handleCloseNote}
+                  message="Liste des groupes armés: Mai-Mai Jackson MFP (MM J), AFRC (AFRC), RUD-Urunana (RUD-U), Nyatura FPPH (N FPPH), Amka Jeshi (AJ), Nyatura FPDH (N FPDH), FDLR-FOCA (FDLR), Nyatura CMC (N CMC), Nyatura Turarambiwe / Rutshuru (N TUR), M23 (M23), Nyatura Jean-Marie (N JM), APCLS (APCLS), Nyatura-APRDC (N APRDC), Nyatura Nyatura Musheku (N NM), Nyatura Bagaruza (N B), Nyatura GAV (N GAV), Nyatura Delta FDDH (N D-FDDH), MAC, ex-Guides (MAC),  Nyatura Delta FDDH (NDC R/B), NDC-R/Guidon (NDC R/G), Mai-Mai Kabidon FPP/AP (MM K). Source des données sur la présence et la répartition territoriale des groupes armés (2021): Baromètre sécuritaire du Kivu (KST)"
+                  action={action} /><br /><br /></Typography>
+            </CardContent>
+          </FullpageSection>
+
+
 
         </FullPageSections>
 

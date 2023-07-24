@@ -215,6 +215,15 @@ background: rgba(221, 229, 217, 1) !important;
   background-position: center right;
 }
 
+.armed {
+  background: url("../public/armed.png") no-repeat;
+  background-repeat: no-repeat;
+  background-size: 40vw;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center right;
+}
+
 .fishChallenges {
   font-family: 'IBM Plex Mono', monospace !important;
   -webkit-font-smoothing: antialiased;
