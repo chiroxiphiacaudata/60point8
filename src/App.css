@@ -584,4 +584,10 @@ background: rgba(221, 229, 217, 1) !important;
     height: 25px;
   }
 
+  .titleh2 {
+    font-size: 5em !important;
+    overflow-wrap: anywhere !important;  
+  }
+  
+
 }
