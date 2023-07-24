@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/60point8/static/css/main.a2760601.css",
-    "main.js": "/60point8/static/js/main.855de57d.js",
+    "main.css": "/60point8/static/css/main.bc4f1462.css",
+    "main.js": "/60point8/static/js/main.936905e3.js",
     "static/js/787.0961753b.chunk.js": "/60point8/static/js/787.0961753b.chunk.js",
     "static/media/mangifera.png": "/60point8/static/media/mangifera.f2884f86947f69b878e8.png",
     "static/media/leucaena.png": "/60point8/static/media/leucaena.ce1ac8e677a7dbbe47e2.png",
@@ -9,6 +9,7 @@
     "static/media/moringa.png": "/60point8/static/media/moringa.5fa9c7be3aaff3b392ae.png",
     "static/media/calliandra.png": "/60point8/static/media/calliandra.cab5655fc67e256d5058.png",
     "static/media/planches.jpg": "/60point8/static/media/planches.dba5495fdc0b9f971c97.jpg",
+    "static/media/armed.png": "/60point8/static/media/armed.4380a6a278280c564d51.png",
     "static/media/zoonotic_niche.png": "/60point8/static/media/zoonotic_niche.1e2cf4cc1bd4363750d1.png",
     "static/media/makala.jpg": "/60point8/static/media/makala.92668b20f8429832ddc4.jpg",
     "static/media/fence.jpg": "/60point8/static/media/fence.c3815aae00b196291f44.jpg",
@@ -31,12 +32,12 @@
     "static/media/F.png": "/60point8/static/media/F.d33e95578d7fba12ac13.png",
     "static/media/logo192.png": "/60point8/static/media/logo192.1dabf6b07d8b76f89a63.png",
     "index.html": "/60point8/index.html",
-    "main.a2760601.css.map": "/60point8/static/css/main.a2760601.css.map",
-    "main.855de57d.js.map": "/60point8/static/js/main.855de57d.js.map",
+    "main.bc4f1462.css.map": "/60point8/static/css/main.bc4f1462.css.map",
+    "main.936905e3.js.map": "/60point8/static/js/main.936905e3.js.map",
     "787.0961753b.chunk.js.map": "/60point8/static/js/787.0961753b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2760601.css",
-    "static/js/main.855de57d.js"
+    "static/css/main.bc4f1462.css",
+    "static/js/main.936905e3.js"
   ]
 }
