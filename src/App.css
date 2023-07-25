@@ -224,6 +224,15 @@ background: rgba(221, 229, 217, 1) !important;
   background-position: center right;
 }
 
+.msa {
+  background: url("../public/msa.png") no-repeat;
+  background-repeat: no-repeat;
+  background-size: 40vw;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center right;
+}
+
 .fishChallenges {
   font-family: 'IBM Plex Mono', monospace !important;
   -webkit-font-smoothing: antialiased;
@@ -375,6 +384,15 @@ background: rgba(221, 229, 217, 1) !important;
 
 .fence {
   background: url("../public/fence.jpg") no-repeat;
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.women {
+  background: url("../public/women.png") no-repeat;
   background-repeat: no-repeat;
   background-size: 100vw;
   height: 100vh;

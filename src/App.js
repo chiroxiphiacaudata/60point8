@@ -128,6 +128,28 @@ const App = () => {
             <Plante_fig />
           </FullpageSection>
 
+          <FullpageSection className='msa' style={{
+            backgroundColor: 'rgba(221, 229, 217, 1)',
+            height: '100vh',
+            padding: '1em',
+          }}>
+            <CardContent sx={{ maxWidth: 800 }}>
+              <Typography component='div' className="sentence" sx={{ mt: 2 }}>Text<Button onClick={handleClick}>ꔮ</Button>
+                <Snackbar
+                  open={open}
+                  autoHideDuration={10000}
+                  onClose={handleCloseNote}
+                  message="Our seeds fail even if the soils are fertile because we can no longer count with the frequency and intensity of rainfall. Periods of prolonged drought are affecting planting and crop yields. Severe drought, especially in the first season of 2019, affected farmers who planted oranges and mangoes, because it did not allow seedlings to establish properly in the field and they eventually dried out."
+                  action={action} /><Button onClick={handleClick}>MAP</Button>
+                <Snackbar
+                  open={open}
+                  autoHideDuration={25000}
+                  onClose={handleCloseNote}
+                  message="Variation du changement projeté de la biodiversité dans la province du Nord-Kivu, en utilisant la métrique de l'abondance moyenne des espèces (MSA) pour la période 2015-2050 et en considérant la trajectoire socio-économique partagée SSP5 RCP8.5 - un avenir avec une dépendance mondiale continue aux combustibles fossiles. Le modèle GLOBIO appliqué ne quantifie pas seulement les effets potentiels du changement climatique, mais tient également compte de l'utilisation des terres, de la fragmentation des habitats et de la pollution par l'azote. Dans ce cas, les calculs se réfèrent uniquement à la MSA des plantes terrestres. Les zones bleues indiquent une récupération de la biodiversité des plantes terrestres, les zones rouges une perte. On constate que dans un contexte désastreux de perte d'intégrité de la biodiversité terrestre des zones de forêts primaires et secondaires dans le Bassin du Congo (jusqu'à - 0,80), le nord du territoire de Rutshuru peut connaître en 2050 une amélioration de la MSA (+ 0,26) malgré le scénario peu favorable SSP5 RCP8.5, en fonction de la reconnaissance de la fonction écologique des zones autour des limites du Parc des Virunga et de la réduction de la demande en terres."
+                  action={action} /><br /><br /></Typography>
+            </CardContent>
+          </FullpageSection>
+
           <FullpageSection className='makala' style={{
             height: '80vh',
             padding: '1em',
@@ -253,6 +275,14 @@ const App = () => {
             </CardContent>
           </FullpageSection>
 
+          <FullpageSection className='women' style={{
+            height: '80vh',
+            padding: '1em',
+          }}>
+            <CardContent sx={{ maxWidth: 800 }}>
+              <Typography component='div' sx={{ mt: 1, fontSize: 9, fontFamily: 'IBM Plex Mono' }}></Typography>
+            </CardContent>
+          </FullpageSection>
 
 
         </FullPageSections>
