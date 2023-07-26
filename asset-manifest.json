@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/60point8/static/css/main.c4bdf789.css",
-    "main.js": "/60point8/static/js/main.60db4f14.js",
+    "main.css": "/60point8/static/css/main.07a47f03.css",
+    "main.js": "/60point8/static/js/main.df6c23ec.js",
     "static/js/787.0961753b.chunk.js": "/60point8/static/js/787.0961753b.chunk.js",
     "static/media/mangifera.png": "/60point8/static/media/mangifera.f2884f86947f69b878e8.png",
     "static/media/leucaena.png": "/60point8/static/media/leucaena.ce1ac8e677a7dbbe47e2.png",
@@ -19,6 +19,7 @@
     "static/media/acacia.png": "/60point8/static/media/acacia.14ae0ab2fa8d70522221.png",
     "static/media/viande.jpg": "/60point8/static/media/viande.73369f367cc446e09b07.jpg",
     "static/media/Loxodonta_africana.png": "/60point8/static/media/Loxodonta_africana.80f20d38f071dafea6af.png",
+    "static/media/flee.jpg": "/60point8/static/media/flee.457fae812112c2337b7d.jpg",
     "static/media/carica.png": "/60point8/static/media/carica.4a5e239c84e99946c127.png",
     "static/media/erythrina.png": "/60point8/static/media/erythrina.98d72a4e0a5b9f12a5b8.png",
     "static/media/Pan_troglodytes.png": "/60point8/static/media/Pan_troglodytes.fa17db2a24273739135f.png",
@@ -26,20 +27,25 @@
     "static/media/Gorilla_beringei.png": "/60point8/static/media/Gorilla_beringei.4917a451b7909a68d79b.png",
     "static/media/FE.png": "/60point8/static/media/FE.2e444feec8110ffc2629.png",
     "static/media/N.png": "/60point8/static/media/N.584316fb800ed316eb35.png",
+    "static/media/routemakala.png": "/60point8/static/media/routemakala.d2966cca31fbc774d220.png",
     "static/media/Smutsia_gigantea.png": "/60point8/static/media/Smutsia_gigantea.02dc3017380836e0e463.png",
     "static/media/Phataginus_tricuspis.png": "/60point8/static/media/Phataginus_tricuspis.e376f78bd718e1756925.png",
+    "static/media/routefence.png": "/60point8/static/media/routefence.d0758b3c1948c898534f.png",
+    "static/media/routedef.png": "/60point8/static/media/routedef.fb8415ef095ede8ccffd.png",
+    "static/media/route.png": "/60point8/static/media/route.07758f6fc54ec5e2deb3.png",
     "static/media/Crocidura_tarella.png": "/60point8/static/media/Crocidura_tarella.f0459f29344880f5cc05.png",
     "static/media/Leptosiaphos_graueri.png": "/60point8/static/media/Leptosiaphos_graueri.d2c34f6d78fd9f72ec5f.png",
     "static/media/W.png": "/60point8/static/media/W.031886ba029a6f6cd0e4.png",
     "static/media/F.png": "/60point8/static/media/F.d33e95578d7fba12ac13.png",
     "static/media/logo192.png": "/60point8/static/media/logo192.1dabf6b07d8b76f89a63.png",
+    "static/media/license.png": "/60point8/static/media/license.e59b26f6a65b9db62117.png",
     "index.html": "/60point8/index.html",
-    "main.c4bdf789.css.map": "/60point8/static/css/main.c4bdf789.css.map",
-    "main.60db4f14.js.map": "/60point8/static/js/main.60db4f14.js.map",
+    "main.07a47f03.css.map": "/60point8/static/css/main.07a47f03.css.map",
+    "main.df6c23ec.js.map": "/60point8/static/js/main.df6c23ec.js.map",
     "787.0961753b.chunk.js.map": "/60point8/static/js/787.0961753b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4bdf789.css",
-    "static/js/main.60db4f14.js"
+    "static/css/main.07a47f03.css",
+    "static/js/main.df6c23ec.js"
   ]
 }
