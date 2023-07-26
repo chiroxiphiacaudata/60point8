@@ -69,15 +69,7 @@ const Endangered = () => {
     )
 
     return (
-        <><CardContent sx={{ maxWidth: 800 }}>
-            <Typography component='div' className="sentence" sx={{ mt: 2 }}>Text<Button onClick={handleClick}>ꔮ</Button>
-                <Snackbar
-                    open={open}
-                    autoHideDuration={10000}
-                    onClose={handleCloseNote}
-                    message="text"
-                    action={action} /></Typography>
-        </CardContent><Box sx={{ width: '100%' }}>
+        <><Box sx={{ width: '100%' }}>
                 <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
                     <Grid item xs={3}>
                         <Item sx={{ height: '100%' }}>

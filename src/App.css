@@ -215,6 +215,42 @@ background: rgba(221, 229, 217, 1) !important;
   background-position: center right;
 }
 
+.route {
+  background: url("../public/route.png") no-repeat;
+  background-repeat: no-repeat;
+  background-size: 35vw;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center right;
+}
+
+.routedef {
+  background: url("../public/routedef.png") no-repeat;
+  background-repeat: no-repeat;
+  background-size: 35vw;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center right;
+}
+
+.routemakala {
+  background: url("../public/routemakala.png") no-repeat;
+  background-repeat: no-repeat;
+  background-size: 35vw;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center right;
+}
+
+.routefence {
+  background: url("../public/routefence.png") no-repeat;
+  background-repeat: no-repeat;
+  background-size: 35vw;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center right;
+}
+
 .armed {
   background: url("../public/armed.png") no-repeat;
   background-repeat: no-repeat;
@@ -409,6 +445,15 @@ background: rgba(221, 229, 217, 1) !important;
   background-position: center center;
 }
 
+.flee{
+  background: url("../public/flee.jpg") no-repeat;
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
 .chall {
   outline: 1px solid rgb(114, 114, 114, .1);
   outline-offset: 3px;
@@ -516,6 +561,37 @@ background: rgba(221, 229, 217, 1) !important;
   outline-offset: -8px;
 }
 
+.footer {
+  vertical-align: top;
+  font-size: 0.8em !important;
+}
+
+.footert {
+  font-family: 'IBM Plex Mono', monospace !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400 !important;
+  font-size: 0.85em !important;
+}
+
+.cc {
+  width: 30%;
+  display: inline-block;
+  margin: 0;
+  padding-right: 30px !important;
+  vertical-align: top;
+}
+
+.license {
+  background: url("../public/license.png") no-repeat;
+  background-repeat: no-repeat;
+  background-size: 200px 50px;
+  width: 200px;
+  height: 50px;
+  position: relative;
+  padding: 5px;
+  margin-top: 20px;
+}
 
 
 
@@ -560,6 +636,67 @@ background: rgba(221, 229, 217, 1) !important;
     background-position: bottom right;
   }
 
+  .route {
+    background-size: 90vw !important;
+    height: 90vh !important;
+    background-position: bottom right;
+  }
+
+  .routedef {
+    background-size: 90vw !important;
+    height: 90vh !important;
+    background-position: bottom right;
+  }
+
+  .routemakala {
+    background-size: 90vw !important;
+    height: 90vh !important;
+    background-position: bottom right;
+  }
+
+  .routefence {
+    background-size: 90vw !important;
+    height: 90vh !important;
+    background-position: bottom right;
+  }
+
+  .msa {
+    background-size: 50vw !important;
+    height: 100vh !important;
+    background-position: bottom right;
+  }
+
+  .armed {
+    background-size: 90vw !important;
+    height: 100vh !important;
+    background-position: bottom right;
+  }
+
+  .planches {
+    background-size: auto !important;
+  }
+
+  .makala {
+    background-size: auto !important;
+  }
+
+  .viande {
+    background-size: auto !important;
+  }
+
+  .flee {
+    background-size: auto !important;
+  }
+
+  .women {
+    background-size: auto !important;
+  }
+
+  .fence {
+    background-size: auto !important;
+    background-position: bottom left;
+  }
+
   .tradkiln {
     display: none;
   }
@@ -583,6 +720,10 @@ background: rgba(221, 229, 217, 1) !important;
 
   .fish {
     font-size: 0.8em !important;
+  }
+
+  .conclusion {
+    font-size: 0.9em !important;
   }
 
   .fishChallenges {
@@ -612,7 +753,7 @@ background: rgba(221, 229, 217, 1) !important;
   }
 
   .titleh2 {
-    font-size: 5em !important;
+    font-size: 4.2em !important;
     overflow-wrap: anywhere !important;  
   }
   

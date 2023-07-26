@@ -86,13 +86,7 @@ const Plante = () => {
     return (
 
         <><CardContent sx={{ maxWidth: 800 }}>
-            <Typography component='div' className="sentence" sx={{ mt: 2 }}>L'existence et les subsistances des gens qui vivent le long des 60,8 kilomètres de l'axe routier Ishasha-Rutshuru<Button onClick={handleClick}>ꔮ</Button>
-                <Snackbar
-                    open={open}
-                    autoHideDuration={10000}
-                    onClose={handleCloseNote}
-                    message="Le territoire de Rutshuru est coincé entre une unité de basse altitude, le nord du Bwisha, une plaine fluvio-lacustre où coulent les rivières Ishasha et Rutshuru avant de se jeter dans le lac Edouard, et une unité de haute altitude, le sud du Bwisha, constituée de massifs et de plateaux d'origine volcanique."
-                    action={action} />sont menacées tous les jours.<br /><br /></Typography>
+            <Typography component='div' className="sentence" sx={{ mt: 2 }}>Cette destruction, dont nous sommes complices et victimes, rompt la continuité avec notre mode de vie traditionnel et nos connaissances ancestrales en matière de ressources biologiques et de gestion agroforestière<br /><br /></Typography>
         </CardContent>
 
             <Accordion defaultExpanded={true}>
