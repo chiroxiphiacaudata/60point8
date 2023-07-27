@@ -218,7 +218,7 @@ background: rgba(221, 229, 217, 1) !important;
 .route {
   background: url("../public/route.png") no-repeat;
   background-repeat: no-repeat;
-  background-size: 35vw;
+  background-size: 30vw;
   height: 100vh;
   background-attachment: fixed;
   background-position: center right;
@@ -227,7 +227,7 @@ background: rgba(221, 229, 217, 1) !important;
 .routedef {
   background: url("../public/routedef.png") no-repeat;
   background-repeat: no-repeat;
-  background-size: 35vw;
+  background-size: 30vw;
   height: 100vh;
   background-attachment: fixed;
   background-position: center right;
@@ -236,7 +236,7 @@ background: rgba(221, 229, 217, 1) !important;
 .routemakala {
   background: url("../public/routemakala.png") no-repeat;
   background-repeat: no-repeat;
-  background-size: 35vw;
+  background-size: 30vw;
   height: 100vh;
   background-attachment: fixed;
   background-position: center right;
@@ -245,7 +245,7 @@ background: rgba(221, 229, 217, 1) !important;
 .routefence {
   background: url("../public/routefence.png") no-repeat;
   background-repeat: no-repeat;
-  background-size: 35vw;
+  background-size: 30vw;
   height: 100vh;
   background-attachment: fixed;
   background-position: center right;
@@ -521,6 +521,16 @@ background: rgba(221, 229, 217, 1) !important;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400 !important;
   font-size: 0.85em !important;
+}
+
+.logofooter {
+  background: url("../public/logo192.png") no-repeat;
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  padding: 5px;
 }
 
 .MuiSnackbar-root.MuiSnackbar-anchorOriginBottomLeft {

@@ -1,13 +1,8 @@
 import './App.css';
 import * as React from "react"
 
-import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import IconButton from '@mui/material/IconButton';
-import Button from '@mui/material/Button';
-import Snackbar from '@mui/material/Snackbar';
-import CloseIcon from '@mui/icons-material/Close';
 import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
@@ -23,7 +18,7 @@ import Moringa from "./img/moringa.png";
 import Mangifera from "./img/mangifera.png";
 import Carica from "./img/carica.png";
 
-const Plante_fig = () => {
+const PlanteFig = () => {
 
 
     const Item = styled(Paper)(({ theme }) => ({
@@ -33,37 +28,6 @@ const Plante_fig = () => {
         textAlign: 'center',
         color: theme.palette.text.secondary,
     }));
-
-    const [open, setOpen] = React.useState(false)
-
-    const handleClick = () => {
-        setOpen(true)
-    }
-
-    const handleClose = (event, reason) => {
-        if (reason === "clickaway") {
-            return
-        }
-
-        setOpen(false)
-    }
-
-    const handleCloseNote = () => setOpen(false);
-
-    const action = (
-        <React.Fragment>
-            <Button color="secondary" size="small" onClick={handleClose}>
-            </Button>
-            <IconButton
-                size="small"
-                aria-label="close"
-                color="inherit"
-                onClick={handleClose}
-            >
-                <CloseIcon fontSize="small" />
-            </IconButton>
-        </React.Fragment>
-    )
 
     return (
 
@@ -175,4 +139,4 @@ const Plante_fig = () => {
 }
 
 
-export default Plante_fig;
+export default PlanteFig;

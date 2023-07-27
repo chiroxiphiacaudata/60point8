@@ -2,16 +2,8 @@ import './App.css';
 import * as React from "react"
 
 import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import IconButton from '@mui/material/IconButton';
-import Button from '@mui/material/Button';
-import Snackbar from '@mui/material/Snackbar';
-import CloseIcon from '@mui/icons-material/Close';
-import { styled } from '@mui/material/styles';
-import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
-import Box from '@mui/material/Box';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
@@ -25,46 +17,6 @@ import TableRow from '@mui/material/TableRow';
 
 
 const Plante = () => {
-
-
-    const Item = styled(Paper)(({ theme }) => ({
-        backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
-        ...theme.typography.body2,
-        padding: theme.spacing(1),
-        textAlign: 'center',
-        color: theme.palette.text.secondary,
-    }));
-
-    const [open, setOpen] = React.useState(false)
-
-    const handleClick = () => {
-        setOpen(true)
-    }
-
-    const handleClose = (event, reason) => {
-        if (reason === "clickaway") {
-            return
-        }
-
-        setOpen(false)
-    }
-
-    const handleCloseNote = () => setOpen(false);
-
-    const action = (
-        <React.Fragment>
-            <Button color="secondary" size="small" onClick={handleClose}>
-            </Button>
-            <IconButton
-                size="small"
-                aria-label="close"
-                color="inherit"
-                onClick={handleClose}
-            >
-                <CloseIcon fontSize="small" />
-            </IconButton>
-        </React.Fragment>
-    )
 
     function createData(plant, agro, edible, med, femme, rev) {
         return { plant, agro, edible, med, femme, rev };
@@ -98,39 +50,39 @@ const Plante = () => {
                     <Typography sx={{ fontSize: "11px !important", WebkitTextFillColor: "rgb(105, 105, 105) !important" }} className="fishChallenges">LISTE DES ARBRES AVEC UNE DISCRÈTE CONNAISSANCE ANCESTRALE</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                    <TableContainer component={Paper} sx={{ maxHeight: 300, overflow: 'auto' }}>
-                        <Table sx={{ minWidth: 1000, fontSize: 13.5, fontWeight: "900 !important", }} aria-label="simple table">
-                            <TableHead>
-                                <TableRow >
-                                    <TableCell>Nom et essence de l'arbre</TableCell>
-                                    <TableCell align="center">Usage agroforestier</TableCell>
-                                    <TableCell align="center">Usages comestibles</TableCell>
-                                    <TableCell align="center">Usage médicinal</TableCell>
-                                    <TableCell align="center">Connaissance et gestion par les femmes</TableCell>
-                                    <TableCell align="center">Revenu</TableCell>
-                                </TableRow>
-                            </TableHead>
-                            <TableBody>
-                                {ancestr.map((row) => (
-                                    <TableRow
-                                        key={ancestr.plant}
-                                        sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
-                                    >
-                                        <TableCell component="th" scope="row">
-                                            {row.plant}
-                                        </TableCell>
-                                        <TableCell align="center">{row.agro}</TableCell>
-                                        <TableCell align="center">{row.edible}</TableCell>
-                                        <TableCell align="center">{row.med}</TableCell>
-                                        <TableCell align="center">{row.femme}</TableCell>
-                                        <TableCell align="center">{row.rev}</TableCell>
+                    <TableContainer component={Paper} sx={{ maxHeight: 250, overflow: 'auto' }}>
+                        <Table stickyHeader sx={{ minWidth: 1000, fontSize: 13.5, fontWeight: "900 !important", }} aria-label="sticky table">
+                                <TableHead>
+                                    <TableRow >
+                                        <TableCell>Nom et essence de l'arbre</TableCell>
+                                        <TableCell align="center">Usage agroforestier</TableCell>
+                                        <TableCell align="center">Usages comestibles</TableCell>
+                                        <TableCell align="center">Usage médicinal</TableCell>
+                                        <TableCell align="center">Connaissance et gestion par les femmes</TableCell>
+                                        <TableCell align="center">Revenu</TableCell>
                                     </TableRow>
-                                ))}
-                            </TableBody>
-                        </Table>
-                    </TableContainer>
-                </AccordionDetails>
-            </Accordion >
+                                </TableHead>
+                                <TableBody>
+                            {ancestr.map((row) => (
+                                <TableRow
+                                    key={ancestr.plant}
+                                    sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+                                >
+                                    <TableCell component="th" scope="row">
+                                        {row.plant}
+                                    </TableCell>
+                                    <TableCell align="center">{row.agro}</TableCell>
+                                    <TableCell align="center">{row.edible}</TableCell>
+                                    <TableCell align="center">{row.med}</TableCell>
+                                    <TableCell align="center">{row.femme}</TableCell>
+                                    <TableCell align="center">{row.rev}</TableCell>
+                                </TableRow>
+                            ))}
+                        </TableBody>
+                    </Table>
+                </TableContainer>
+            </AccordionDetails>
+        </Accordion >
         </>
     )
 }

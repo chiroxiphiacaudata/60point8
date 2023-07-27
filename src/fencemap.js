@@ -21,7 +21,7 @@ const Fencemap = () => {
 
             <CardContent sx={{ maxWidth: 300 }}>
                 <Typography component='div' className="titleh2" sx={{ mt: 2 }}>CONSERVATION-FORTERESSE
-                    <Typography component='div' className="notemap" sx={{ mt: 2 }}><a href='https://www.alessandromusetta.com/geo/tiles/60point8/fence/map.html' target='_blank' rel='noopener noreferrer'>Interact with the map</a></Typography>
+                    <Typography component='div' className="notemap" sx={{ mt: 2 }}><a href='https://www.alessandromusetta.com/geo/tiles/60point8/fence/map.html' target='_blank' rel='noopener noreferrer'>Consulter la carte interactive</a></Typography>
                 </Typography>
             </CardContent>
 
