@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/60point8/static/css/main.7211796f.css",
-    "main.js": "/60point8/static/js/main.86745ae4.js",
+    "main.css": "/60point8/static/css/main.479be890.css",
+    "main.js": "/60point8/static/js/main.426be309.js",
     "static/js/787.0961753b.chunk.js": "/60point8/static/js/787.0961753b.chunk.js",
     "static/media/mangifera.png": "/60point8/static/media/mangifera.f2884f86947f69b878e8.png",
     "static/media/leucaena.png": "/60point8/static/media/leucaena.ce1ac8e677a7dbbe47e2.png",
@@ -17,6 +17,7 @@
     "static/media/fence.jpg": "/60point8/static/media/fence.c3815aae00b196291f44.jpg",
     "static/media/grevillea.png": "/60point8/static/media/grevillea.4cb0d97a1fdb6eac7109.png",
     "static/media/acacia.png": "/60point8/static/media/acacia.14ae0ab2fa8d70522221.png",
+    "static/media/DRC.png": "/60point8/static/media/DRC.7fef3a85f8b1a23bd5fe.png",
     "static/media/viande.jpg": "/60point8/static/media/viande.73369f367cc446e09b07.jpg",
     "static/media/Loxodonta_africana.png": "/60point8/static/media/Loxodonta_africana.80f20d38f071dafea6af.png",
     "static/media/flee.jpg": "/60point8/static/media/flee.457fae812112c2337b7d.jpg",
@@ -40,12 +41,12 @@
     "static/media/logo192.png": "/60point8/static/media/logo192.1dabf6b07d8b76f89a63.png",
     "static/media/license.png": "/60point8/static/media/license.e59b26f6a65b9db62117.png",
     "index.html": "/60point8/index.html",
-    "main.7211796f.css.map": "/60point8/static/css/main.7211796f.css.map",
-    "main.86745ae4.js.map": "/60point8/static/js/main.86745ae4.js.map",
+    "main.479be890.css.map": "/60point8/static/css/main.479be890.css.map",
+    "main.426be309.js.map": "/60point8/static/js/main.426be309.js.map",
     "787.0961753b.chunk.js.map": "/60point8/static/js/787.0961753b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7211796f.css",
-    "static/js/main.86745ae4.js"
+    "static/css/main.479be890.css",
+    "static/js/main.426be309.js"
   ]
 }
