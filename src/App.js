@@ -65,7 +65,7 @@ const App = () => {
             <Basemap />
           </FullpageSection>
 
-          <FullpageSection style={{
+          <FullpageSection className='drc' style={{
             height: '100vh',
             padding: '1em',
           }}>

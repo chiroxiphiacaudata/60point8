@@ -269,6 +269,15 @@ background: rgba(221, 229, 217, 1) !important;
   background-position: center right;
 }
 
+.drc {
+  background: url("../public/DRC.png") no-repeat;
+  background-repeat: no-repeat;
+  background-size: 40vw;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center right;
+}
+
 .fishChallenges {
   font-family: 'IBM Plex Mono', monospace !important;
   -webkit-font-smoothing: antialiased;
@@ -657,6 +666,12 @@ background: rgba(221, 229, 217, 1) !important;
   }
 
   .routedef {
+    background-size: 90vw !important;
+    height: 90vh !important;
+    background-position: bottom right;
+  }
+
+  .drc {
     background-size: 90vw !important;
     height: 90vh !important;
     background-position: bottom right;
