@@ -70,7 +70,7 @@ const App = () => {
             padding: '1em',
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="sentence" sx={{ mt: 2 }}>Nous, les Hutu, les Nande, les Hunde, les Tusti et les Pygmee, défenseurs et défenseures de la terre de la chéfferie de Bwisha, dénonçons la perte forcée de nos ressources biologiques, de notre patrimoine culturel et de notre souveraineté alimentaire dans le nord du territoire de Ruthuru<Button onClick={handleClick}>ꔮ</Button>
+              <Typography component='div' className="sentence" sx={{ mt: 2 }}>Nous, les Hutu, les Nande, les Hunde, les Tusti et les Pygmee, défenseurs et défenseuses de la terre de la chéfferie de Bwisha, dénonçons la perte forcée de nos ressources biologiques, de notre patrimoine culturel et de notre souveraineté alimentaire dans le nord du territoire de Rutshuru<Button onClick={handleClick}>ꔮ</Button>
                 <Snackbar
                   open={open}
                   autoHideDuration={25000}
@@ -90,7 +90,7 @@ const App = () => {
                   open={open}
                   autoHideDuration={25000}
                   onClose={handleCloseNote}
-                  message="En raison des problèmes de sécurité liés à la documentation des crimes contre l'environnement, et compte tenu du fait que certains défenseurs et défenseures de la terre sont forcés de vivre dans la clandestinité et constamment menacés de mort, lorsque des crimes sont spécifiquement mentionnés, ils le sont de manière anonyme"
+                  message="En raison des problèmes de sécurité liés à la documentation des crimes contre l'environnement, et compte tenu du fait que certains défenseurs et défenseuses de la terre sont forcés de vivre dans la clandestinité et constamment menacés de mort, lorsque des crimes sont spécifiquement mentionnés, ils le sont de manière anonyme"
                   action={action} />, en commençant par ce qui se passe sur l'axe routier principal d'environ 60 km qui s'étend de Rutshuru à Ishasha</Typography>
             </CardContent>
           </FullpageSection>
@@ -372,7 +372,7 @@ const App = () => {
             borderTop: '1px solid rgba(114, 114, 114, 0.5)'
           }}>
             <CardContent className='cc'>
-              <Typography component='div' className="footert" sx={{ mt: 2, color: "rgba(251, 90, 80, 1) !important" }}><div className='logofooter'></div>Sincères remerciements à tous les défenseurs et défenseures de la terre de la chefferie de Bwisha, pour l'humanité, le courage, le dévouement, la compassion et les soins collectifs qu'ils ont apportés à la réalisation de ce document. Pour une paix durable, en toute solidarité.<br /><br /><br />
+              <Typography component='div' className="footert" sx={{ mt: 2, color: "rgba(251, 90, 80, 1) !important" }}><div className='logofooter'></div>Sincères remerciements à tous les défenseurs et défenseuses de la terre de la chefferie de Bwisha, pour l'humanité, le courage, le dévouement, la compassion et les soins collectifs qu'ils ont apportés à la réalisation de ce document. Pour une paix durable, en toute solidarité.<br /><br /><br />
               </Typography>
             <Typography component='div' className="footert" sx={{ mt: 2 }}> <div className='license'></div><br /><br /><br />
             </Typography>
