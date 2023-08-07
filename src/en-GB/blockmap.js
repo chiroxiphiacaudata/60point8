@@ -4,10 +4,11 @@ import { ZoomControl } from 'react-leaflet/ZoomControl'
 import 'leaflet/dist/leaflet.css';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
-import Legendfence from './Legendfence.tsx';
+
+import Legendblock from './Legendblock.tsx';
 
 
-const Fencemap = () => {
+const Blockmap = () => {
 
     const center = [-0.9558, 29.4947];
     const outerbounds = [
@@ -20,8 +21,8 @@ const Fencemap = () => {
         <>
 
             <CardContent sx={{ maxWidth: 300 }}>
-                <Typography component='div' className="titleh2" sx={{ mt: 2 }}>CONSERVATION-FORTERESSE
-                    <Typography component='div' className="notemap" sx={{ mt: 2 }}><a href='https://www.alessandromusetta.com/geo/tiles/60point8/fence/map.html' target='_blank' rel='noopener noreferrer'>Consulter la carte interactive</a></Typography>
+                <Typography component='div' className="titleh2" sx={{ mt: 2 }}>TAXATION OF THE MAKALA AND NATURAL RESOURCES CIRCUIT
+                    <Typography component='div' className="notemap" sx={{ mt: 2 }}><a href='https://www.alessandromusetta.com/geo/tiles/60point8/block/map.html' target='_blank' rel='noopener noreferrer'>Open the interactive map</a></Typography>
                 </Typography>
             </CardContent>
 
@@ -33,19 +34,19 @@ const Fencemap = () => {
                 scrollWheelZoom={false}
                 zoomControl={false}
                 minZoom={12}
-                maxZoom={14}
+                maxZoom={13}
                 maxBounds={outerbounds}
                 maxBoundsViscosity={1.0}
                 style={{ height: "90vh", backgroundColor: 'rgba(221, 229, 217, 1)' }}
             >
                 <TileLayer
-                    url="https://www.alessandromusetta.com/geo/tiles/60point8/fence/{z}/{x}/{y}.png" />
+                    url="https://www.alessandromusetta.com/geo/tiles/60point8/block/{z}/{x}/{y}.png" />
 
                 <ZoomControl position="bottomright" />
 
             </MapContainer>
 
-            <Legendfence />
+            <Legendblock />
 
 
         </>
@@ -53,4 +54,4 @@ const Fencemap = () => {
 
 }
 
-export default Fencemap;
+export default Blockmap;

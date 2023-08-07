@@ -1,4 +1,4 @@
-import './App.css';
+import '../App.css';
 import * as React from "react"
 
 import CardMedia from '@mui/material/CardMedia';
@@ -8,15 +8,15 @@ import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
 
-import Acacia from "./img/acacia.png";
-import Calliandra from "./img/calliandra.png";
-import Grevillea from "./img/grevillea.png";
-import Leucaena from "./img/leucaena.png";
-import Albizia from "./img/albizia.png";
-import Erythrina from "./img/erythrina.png";
-import Moringa from "./img/moringa.png";
-import Mangifera from "./img/mangifera.png";
-import Carica from "./img/carica.png";
+import Acacia from "../img/acacia.png";
+import Calliandra from "../img/calliandra.png";
+import Grevillea from "../img/grevillea.png";
+import Leucaena from "../img/leucaena.png";
+import Albizia from "../img/albizia.png";
+import Erythrina from "../img/erythrina.png";
+import Moringa from "../img/moringa.png";
+import Mangifera from "../img/mangifera.png";
+import Carica from "../img/carica.png";
 
 const PlanteFig = () => {
 

@@ -484,16 +484,27 @@ background: rgba(221, 229, 217, 1) !important;
   -webkit-text-stroke-color: rgba(163, 75, 75, 0.5);
 }
 
+.translation {
+  animation: none !important;
+  font-size: 0.7em !important;
+  width: auto !important;
+}
+
+.boxheader {
+  position: fixed;
+  margin-top: 3%;
+  margin-left: 90%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+
 .logo {
   background: url("../public/logo192.png") no-repeat;
   background-repeat: no-repeat;
   background-size: 50px 50px;
   width: 50px;
   height: 50px;
-  position: fixed;
-  margin-top: 3%;
-  margin-left: 95%;
-  z-index: 1;
 }
 
 .buttons {
@@ -767,12 +778,9 @@ background: rgba(221, 229, 217, 1) !important;
   }
 
   .logo {
-    background-size: 40px 40px;
-    width: 40px;
-    height: 40px;
-    margin-top: 2%;
-    margin-left: 87%;
-    display: none;
+    background-size: 25px 25px;
+    width: 25px;
+    height: 25px;
   }
 
   .license {
@@ -785,6 +793,21 @@ background: rgba(221, 229, 217, 1) !important;
     font-size: 4.2em !important;
     overflow-wrap: anywhere !important;  
   }
+
+  .translation {
+    animation: none !important;
+    font-size: 0.5em !important;
+    width: auto !important;
+  }
+
+  .boxheader {
+    position: fixed;
+    margin-top: 3%;
+    margin-left: 70%;
+    z-index: 1 !important;
+    display: flex;
+    justify-content: center;
+  }  
   
 
 }

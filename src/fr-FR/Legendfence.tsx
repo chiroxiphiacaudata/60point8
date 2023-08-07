@@ -3,15 +3,12 @@ import Backdrop from '@mui/material/Backdrop';
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
 import Fade from '@mui/material/Fade';
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Close from '@mui/icons-material/Close';
 import IconButton from '@mui/material/IconButton';
 import Divider from '@mui/material/Divider';
+
 
 const style = {
   position: 'absolute' as 'absolute',
@@ -32,14 +29,14 @@ const stybut = {
   zIndex: '9999',
 };
 
-export default function Legenddef() {
+export default function Legendfence() {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 
   return (
     <div>
-      <Button sx={stybut} onClick={handleOpen}>Déforestation le long de l'axe routier Ishasha-Rutshuru - Légende</Button>
+      <Button sx={stybut} onClick={handleOpen}>Conservation-forteresse - Légende</Button>
       <Modal
         aria-labelledby="transition-modal-title"
         aria-describedby="transition-modal-description"
@@ -58,15 +55,15 @@ export default function Legenddef() {
               <Close />
             </IconButton>
             <Typography>
-              <b>Déforestation le long de l'axe routier Ishasha-Rutshuru</b><br />Empreinte de la déforestation par année, à partir de relevés d'images satellites (années 2001-2022) et d'alertes à la déforestation (janvier-mai 2023)<br /><br />
+              <b>Infrastructure créée pour renforcer les stratégies de conservation-forteresses et la militarisation des zones de conservation</b><br /><br /><br />
               <Divider />
             </Typography>
             <Typography>
-              <div className='defgrad'></div>Pertes brutes de couvert forestier de 2001 à 2022 (jaune moins récent, rouge plus récent)<br /><br />
-              <div className='defalert'></div>Alerte à la déforestation en 2023<br /><br /><br />
+              <div className='fencesolid'></div>Clôtures électriques déjà installées d'ici au printemps 2023<br /><br /><br />
+              <div className='fencedashed'></div>Clôtures électriques en cours de projet ou de construction<br /><br /><br />
             </Typography>
             <Typography>
-              Les arbres sont définis comme des végétaux d'une hauteur supérieure à 5 mètres. La "perte de couverture forestière" est définie comme une perturbation qui remplace un peuplement ou un passage d'un état forestier à un état non forestier. L'alerte à la déforestation indique une zone de 30 mètres sur 30 qui a subi une perturbation dans le couvert forestier, ce qui indique que des arbres dans cette zone peuvent avoir été perdus ou enlevés.<br /><br />Source: Hansen/UMD/Google/USGS/NASA, Hansen, Matthew C., Alexander Krylov, Alexandra Tyukavina, Peter V. Potapov, Svetlana Turubanova, Bryan Zutta, Suspense Ifo, Belinda Margono, Fred Stolle, and Rebecca Moore. “Humid Tropical Forest Disturbance Alerts Using Landsat Data.” Environmental Research Letters 11, no. 3 (2016): 034008
+              <div className='fenceF'></div>Postes de patrouille utilisés par les éco-gardes du Parc National de Virunga<br /><br />
             </Typography>
           </Box>
         </Fade>

@@ -1,22 +1,18 @@
-import './App.css';
+import '../App.css';
 import * as React from "react"
 
-import Pan from "./img/Pan_troglodytes.png";
-import Gorilla from "./img/Gorilla_beringei.png";
-import Phataginus from "./img/Phataginus_tricuspis.png";
-import Africana from "./img/Loxodonta_africana.png";
-import Loxodonta from "./img/Loxodonta_cyclotis.png";
-import Smutsia from "./img/Smutsia_gigantea.png";
-import Graueri from "./img/Leptosiaphos_graueri.png";
-import Tarella from "./img/Crocidura_tarella.png";
+import Pan from "../img/Pan_troglodytes.png";
+import Gorilla from "../img/Gorilla_beringei.png";
+import Phataginus from "../img/Phataginus_tricuspis.png";
+import Africana from "../img/Loxodonta_africana.png";
+import Loxodonta from "../img/Loxodonta_cyclotis.png";
+import Smutsia from "../img/Smutsia_gigantea.png";
+import Graueri from "../img/Leptosiaphos_graueri.png";
+import Tarella from "../img/Crocidura_tarella.png";
 
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import IconButton from '@mui/material/IconButton';
-import Button from '@mui/material/Button';
-import Snackbar from '@mui/material/Snackbar';
-import CloseIcon from '@mui/icons-material/Close';
 import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
@@ -36,37 +32,6 @@ const Endangered = () => {
     }));
 
 
-
-    const [open, setOpen] = React.useState(false)
-
-    const handleClick = () => {
-        setOpen(true)
-    }
-
-    const handleClose = (event, reason) => {
-        if (reason === "clickaway") {
-            return
-        }
-
-        setOpen(false)
-    }
-
-    const handleCloseNote = () => setOpen(false);
-
-    const action = (
-        <React.Fragment>
-            <Button color="secondary" size="small" onClick={handleClose}>
-            </Button>
-            <IconButton
-                size="small"
-                aria-label="close"
-                color="inherit"
-                onClick={handleClose}
-            >
-                <CloseIcon fontSize="small" />
-            </IconButton>
-        </React.Fragment>
-    )
 
     return (
         <><Box sx={{ width: '100%' }}>
