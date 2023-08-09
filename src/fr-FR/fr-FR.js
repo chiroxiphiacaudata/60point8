@@ -365,7 +365,7 @@ const FRFR = () => {
             padding: '1em',
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="sentence" sx={{ mt: 2 }}>Et c'est nous, les femmes, qui souffrons le plus du manque d'accès aux ressources forestières, de la dégradation des écosystèmes, des effets du système oppressif des conflits, étant volées, violées et tuées alors qu'elles cherchent de l'eau, du bois pour s'abriter, cuisiner et se chauffer, devant peut-être voyager des heures durant la nuit pour trouver une fontaine avec de l'eau alors que d'autres sont asséchées par le changement climatique et la dévastation de la forêt</Typography>
+              <Typography component='div' className="sentence" sx={{ mt: 2 }}>Et c'est nous, les femmes, qui souffrons le plus du manque d'accès aux ressources forestières, de la dégradation des écosystèmes, des effets du système oppressif des conflits, étant volées, violées et tuées alors qu'elles cherchent de l'eau et des vivres, du bois pour s'abriter, cuisiner et se chauffer, devant peut-être voyager des heures durant la nuit pour trouver une fontaine avec de l'eau, alors qu'autour de nous, nous assistons à la destruction de la forêt</Typography>
             </CardContent>
           </FullpageSection>
 

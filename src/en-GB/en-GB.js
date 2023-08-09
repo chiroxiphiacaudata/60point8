@@ -336,7 +336,7 @@ const ENGB = () => {
             padding: '1em',
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="sentence" sx={{ mt: 2 }}>We're exhausted from fleeing conflicts, which are not over natural resources - which perpetuate them - but rather are fueled by the struggle for power and influence, such as access to land, citizenship and identity. Many of us have never lived in peacetime<Button onClick={handleClick}>ꔮ</Button>
+              <Typography component='div' className="sentence" sx={{ mt: 2 }}>We're exhausted from fleeing conflicts, which aren't about natural resources - they perpetuate them - but rather are fueled by the struggle for power and influence, such as access to land, citizenship and identity. Many of us have never lived in peacetime<Button onClick={handleClick}>ꔮ</Button>
                 <Snackbar
                   open={open}
                   autoHideDuration={25000}
@@ -366,7 +366,7 @@ const ENGB = () => {
             padding: '1em',
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="sentence" sx={{ mt: 2 }}>And we, the women, suffer most from the lack of access to forest resources, from the degradation of ecosystems, from the effects of the oppressive system of conflicts, being robbed, raped and killed while searching for water, wood for shelter, cooking and heating, perhaps having to travel for hours at night to find a fountain where water is available, while others are dried out because of climate change and the devastation of the forest</Typography>
+              <Typography component='div' className="sentence" sx={{ mt: 2 }}>And we, the women, suffer most from the lack of access to forest resources, from the degradation of ecosystems, from the effects of the oppressive system of conflicts, being robbed, raped and killed while searching for water and food, wood for shelter, cooking and heating, perhaps having to travel for hours at night to find a fountain where water is available, while all around we witness the destruction of the forest</Typography>
             </CardContent>
           </FullpageSection>
 
