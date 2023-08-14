@@ -59,7 +59,7 @@ export default function Legendfence() {
               <Divider />
             </Typography>
             <Typography>
-              <div className='fencesolid'></div>Clôtures électriques déjà installées d'ici au printemps 2023<br /><br /><br />
+              <div className='fencesolid'></div>Clôtures électriques déjà installées au printemps 2023<br /><br /><br />
               <div className='fencedashed'></div>Clôtures électriques en cours de projet ou de construction<br /><br /><br />
             </Typography>
             <Typography>

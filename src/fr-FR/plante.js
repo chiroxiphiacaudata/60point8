@@ -47,7 +47,7 @@ const Plante = () => {
                     aria-controls="panel1a-content"
                     id="panel1a-header"
                 >
-                    <Typography sx={{ fontSize: "11px !important", WebkitTextFillColor: "rgb(105, 105, 105) !important" }} className="fishChallenges">LISTE DES ARBRES AVEC UNE DISCRÈTE CONNAISSANCE ANCESTRALE</Typography>
+                    <Typography sx={{ fontSize: "11px !important", WebkitTextFillColor: "rgb(105, 105, 105) !important" }} className="fishChallenges">LISTE DES ARBRES AVEC UNE DISTINCTE CONNAISSANCE ANCESTRALE</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                     <TableContainer component={Paper} sx={{ maxHeight: 250, overflow: 'auto' }}>

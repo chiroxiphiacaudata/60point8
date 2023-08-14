@@ -114,18 +114,18 @@ const ENGB = () => {
             padding: '1em',
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="sentence" sx={{ mt: 2 }}>Our people are coerced into compulsory community work, known locally as SALONGO <Button onClick={handleClick}>ꔮ</Button>
+              <Typography component='div' className="sentence" sx={{ mt: 2 }}>Our people are coerced into compulsory community work, known locally as salongo <Button onClick={handleClick}>ꔮ</Button>
                 <Snackbar
                   open={open}
                   autoHideDuration={25000}
                   onClose={handleCloseNote}
-                  message="Under the control of criminal armed groups such as the FDLR-FOCA and more recently, after the military attack in October 2022 led by the M23, the patriotic resistance fighters known as WAZALENDO. They control the forest and rural areas by dividing into small groups of 3 to 4 militiamen, supervising their exploration and exploitation. They comb the fields and villages looking for people to work in the forest, and when they have completely exhausted the natural resources of a given area, they turn it into plantation zones accessible only with a token for agricultural exploitation, valued at between 10,000 FC (USD 4) and 15,000 FC (USD 6) per square (50 metres) each season."
+                  message="Under the control of criminal armed groups such as the FDLR-FOCA and more recently, after the military attack in October 2022 led by the M23, under the control of the patriotic resistance fighters known as WAZALENDO. They control the forest and rural areas by dividing into small groups of 3 to 4 militiamen, supervising their exploration and exploitation. They comb the fields and villages looking for people to work in the forest, and when they have completely exhausted the natural resources of a given area, they turn it into plantation zones accessible only with a token for agricultural exploitation, valued at between 10,000 FC (USD 4) and 15,000 FC (USD 6) per square (50 metres) each season."
                   action={action} />, and employed as loggers and charcoal burners. Those who evade this obligation cannot access the resources they need for their livelihood, unless they pay high taxes, or worse, are killed<Button onClick={handleClick}>ꔮ</Button>
                 <Snackbar
                   open={open}
-                  autoHideDuration={10000}
+                  autoHideDuration={25000}
                   onClose={handleCloseNote}
-                  message="Reports have emerged about the death or torture of young people in Kiseguro, Katwiguru and Nyamilima between 2022 and 2023. The victims were people who had refused to take part in the Salongo, or who had refused to transport freshly logged timber or charcoal (Makala) to the towns, or who had attempted to farm without a farming permit token. "
+                  message="Reports have emerged about the death or torture of young people in Kiseguro, Katwiguru and Nyamilima between 2022 and 2023. The victims were people who had refused to take part in the salongo, or who had refused to transport freshly logged timber or charcoal (makala) to the towns, or who had attempted to farm without a farming permit token. "
                   action={action} /><br /><br /></Typography>
             </CardContent>
           </FullpageSection>
@@ -199,12 +199,12 @@ const ENGB = () => {
             padding: '1em',
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="sentence" sx={{ mt: 2 }}>While our people are forced to be charcoal burners, producing MAKALA (charcoal), the armed groups are smuggling it to the major towns, particularly Goma, the provincial capital <Button onClick={handleClick}>ꔮ</Button>
+              <Typography component='div' className="sentence" sx={{ mt: 2 }}>While our people are forced to be charcoal burners, producing makala (charcoal), the armed groups are smuggling it to the major towns, particularly Goma, the provincial capital <Button onClick={handleClick}>ꔮ</Button>
                 <Snackbar
                   open={open}
                   autoHideDuration={25000}
                   onClose={handleCloseNote}
-                  message="A fraction of Makala's production is destined for the local consumption. Most is transported to Goma and other urban centers in the North Kivu province. Ishasha, Nyamilima and Rutshuru are the main towns where makala traders deal and trade with armed groups, organizing transport along the main roads."
+                  message="A fraction of makala's production is destined for the local consumption. Most is transported to Goma and other urban centers in the North Kivu province. Ishasha, Nyamilima and Rutshuru are the main towns where makala traders deal and trade with armed groups, organizing transport along the main roads."
                   action={action} />, with the complicity of certain local businessmen and chiefs<br /><br /></Typography>
             </CardContent>
           </FullpageSection>
@@ -222,7 +222,7 @@ const ENGB = () => {
             padding: '1em',
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="sentence" sx={{ mt: 2 }}>But the traffic of Makala is not the sole one being criminally controlled. Access to all natural resources is taxed, by means of illegal roadblocks, both along the Rutshuru-Ishasha axis as well as on the roads leading to the gardens and forest <Button onClick={handleClick}>ꔮ</Button>
+              <Typography component='div' className="sentence" sx={{ mt: 2 }}>But the traffic of makala is not the sole one being criminally controlled. Access to all natural resources is taxed, by means of illegal roadblocks, both along the Rutshuru-Ishasha axis as well as on the roads leading to the gardens and forest <Button onClick={handleClick}>ꔮ</Button>
                 <Snackbar
                   open={open}
                   autoHideDuration={25000}
@@ -246,12 +246,12 @@ const ENGB = () => {
             padding: '1em',
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="sentence" sx={{ mt: 2 }}>By destroying the forest, we increase the chance of encounters with wildlife. They blame our hunting for the extinction of forest-living species, but it's the illegal wildlife trade that's responsible for the decimation of the animals we cohabit with <Button onClick={handleClick}>ꔮ</Button>
+              <Typography component='div' className="sentence" sx={{ mt: 2 }}>By destroying the forest, we increase the chance of encounters with wildlife. Conservationists from the Global North blame hunting for the extinction of forest-living species, but it's the illegal wildlife trade that's responsible for the decimation of the animals we cohabit with <Button onClick={handleClick}>ꔮ</Button>
                 <Snackbar
                   open={open}
                   autoHideDuration={25000}
                   onClose={handleCloseNote}
-                  message="We have recorded the slaughter of 'high-value specimens' as part of the illegal wildlife trade, such as elephants (the latest report dates from June 2022 and concerns the area around Nyamilima). The ivory is smuggled into villages along the Rutshuru-Ishasha axis, then transited via Ishasha on motorcycles, cut up and concealed in crates of agricultural produce or Makala, for example, before being transported by bus to Entebbe airport, in the hands of Ugandan agents. Another illegal wildlife trade route leads to Goma and then Rwanda. The meat, on the other hand, is sold by militiamen to traders for local markets. "
+                  message="We have recorded the slaughter of 'high-value specimens' as part of the illegal wildlife trade, such as elephants (the latest report dates from June 2022 and concerns the area around Nyamilima). The ivory is smuggled into villages along the Rutshuru-Ishasha axis, then transited via Ishasha on motorcycles, cut up and concealed in crates of agricultural produce or makala, for example, before being transported by bus to Entebbe airport, in the hands of Ugandan agents. Another illegal wildlife trade route leads to Goma and then Rwanda. The meat, on the other hand, is sold by militiamen to traders for local markets. "
                   action={action} /><br /><br /></Typography>
             </CardContent>
           </FullpageSection>
@@ -336,7 +336,7 @@ const ENGB = () => {
             padding: '1em',
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="sentence" sx={{ mt: 2 }}>We're exhausted from fleeing conflicts, which aren't about natural resources - they perpetuate them - but rather are fueled by the struggle for power and influence, such as access to land, citizenship and identity. Many of us have never lived in peacetime<Button onClick={handleClick}>ꔮ</Button>
+              <Typography component='div' className="sentence" sx={{ mt: 2 }}>We are exhausted from conflicts, which are not about the exploitation of natural resources, i.e. the economic mechanism to perpetuate conflicts, but are rather fueled by the struggle for power and influence, such as access to land, citizenship and identity<Button onClick={handleClick}>ꔮ</Button>
                 <Snackbar
                   open={open}
                   autoHideDuration={25000}
@@ -366,7 +366,7 @@ const ENGB = () => {
             padding: '1em',
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="sentence" sx={{ mt: 2 }}>And we, the women, suffer most from the lack of access to forest resources, from the degradation of ecosystems, from the effects of the oppressive system of conflicts, being robbed, raped and killed while searching for water and food, wood for shelter, cooking and heating, perhaps having to travel for hours at night to find a fountain where water is available, while all around we witness the destruction of the forest</Typography>
+              <Typography component='div' className="sentence" sx={{ mt: 2 }}>And we, the women, suffer most from the lack of access to forest resources, from the degradation of ecosystems, from the effects of the oppressive system of conflicts. We are robbed, raped and killed while looking for water and food, wood for shelter, cooking and heating. We often have to travel for hours at night to find a water fountain hoping not to cross paths with rapists and murderers, while we witness the destruction of the forest around us</Typography>
             </CardContent>
           </FullpageSection>
 

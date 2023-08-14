@@ -74,12 +74,12 @@ const FRFR = () => {
             padding: '1em',
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="sentence" sx={{ mt: 2 }}>Nous, les Hutu, les Nande, les Hunde, les Tusti et les Pygmee, défenseurs et défenseuses de la terre de la chéfferie de Bwisha, dénonçons la perte forcée de nos ressources biologiques, de notre patrimoine culturel et de notre souveraineté alimentaire dans le nord du territoire de Rutshuru<Button onClick={handleClick}>ꔮ</Button>
+              <Typography component='div' className="sentence" sx={{ mt: 2 }}>Nous, les Hutu, les Nande, les Hunde, les Tusti, et les Pygmee, défenseurs et défenseuses de la terre de la chéfferie de Bwisha, dénonçons la perte forcée de nos ressources biologiques, de notre patrimoine culturel et de notre souveraineté alimentaire dans le nord du territoire de Rutshuru<Button onClick={handleClick}>ꔮ</Button>
                 <Snackbar
                   open={open}
                   autoHideDuration={25000}
                   onClose={handleCloseNote}
-                  message="Le territoire de Rutshuru est coincé entre une unité de basse altitude, le nord du Bwisha, une plaine fluvio-lacustre où coulent les rivières Ishasha et Rutshuru avant de se jeter dans le lac Edouard, et une unité de haute altitude, le sud du Bwisha, constituée de massifs et de plateaux d'origine volcanique."
+                  message="Le territoire de Rutshuru est niché entre une unité de basse altitude, le nord du Bwisha, une plaine fluvio-lacustre où coulent les rivières Ishasha et Rutshuru avant de se jeter dans le lac Edouard, et une unité de haute altitude, le sud du Bwisha, constituée de massifs et de plateaux d'origine volcanique."
                   action={action} />, la plaine fluviale-lacustre de basse altitude qui s'étend de la capitale de ce territoire jusqu'aux pêcheries du lac Édouard<br /><br /></Typography>
             </CardContent>
           </FullpageSection>
@@ -94,7 +94,7 @@ const FRFR = () => {
                   open={open}
                   autoHideDuration={25000}
                   onClose={handleCloseNote}
-                  message="En raison des problèmes de sécurité liés à la documentation des crimes contre l'environnement, et compte tenu du fait que certains défenseurs et défenseuses de la terre sont forcés de vivre dans la clandestinité et constamment menacés de mort, lorsque des crimes sont spécifiquement mentionnés, ils le sont de manière anonyme"
+                  message="En raison des problèmes de sécurité liés à la documentation des crimes contre l'environnement, et du fait que certains défenseurs et défenseuses de la terre sont forcé.e.s à vivre dans la clandestinité et constamment menacé.e.s de mort, lorsque des crimes sont spécifiquement mentionnés, ils le sont de manière anonyme"
                   action={action} />, en commençant par ce qui se passe sur l'axe routier principal d'environ 60 km qui s'étend de Rutshuru à Ishasha</Typography>
             </CardContent>
           </FullpageSection>
@@ -113,18 +113,18 @@ const FRFR = () => {
             padding: '1em',
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="sentence" sx={{ mt: 2 }}>Notre peuple est contraint au travail communautaire obligatoire, connu sous le nom de SALONGO <Button onClick={handleClick}>ꔮ</Button>
+              <Typography component='div' className="sentence" sx={{ mt: 2 }}>Notre peuple est contraint au travail communautaire obligatoire, connu sous le nom de salongo <Button onClick={handleClick}>ꔮ</Button>
                 <Snackbar
                   open={open}
                   autoHideDuration={25000}
                   onClose={handleCloseNote}
-                  message="Sous le contrôle de groupes armés criminels, tels que les FDLR-FOCA et récemment, après l'invasion d'octobre 2022 par le M23, les résistants patriotes connus sous le nom de WAZALENDO. Ils contrôlent la forêt et les zones rurales en se divisant en petits groupes de 3 à 4 miliciens, supervisant leur exploration et leur exploitation. Ils ratissent les champs et les villages en cherchant des gens pour travailler dans la forêt, et lorsqu'ils ont complètement épuisé les ressources naturelles d'un secteur, ils les transforment en zones de plantation accessibles uniquement par un un jeton d’autorisation d’exploitation agricole, entre 10000 FC (4 USD) et 15000 FC (6 USD) par carré (50 mètres) à chaque saison."
-                  action={action} />, et employé comme bûcheron et charbonnier. Ceux qui se soustraient à cette obligation ne peuvent accéder aux ressources nécessaires à leur subsistance, à moins de payer des taxes élevées, ou pire, d'être tués<Button onClick={handleClick}>ꔮ</Button>
+                  message="Sous le contrôle de groupes armés criminels, tels que les FDLR-FOCA et récemment, après l'invasion d'octobre 2022 par le M23, sous le contrôle de les résistants patriotes connus sous le nom de Wazalendo. Ils contrôlent la forêt et les zones rurales en se divisant en petits groupes de 3 à 4 miliciens, et supervisent leur exploration et leur exploitation. Ils ratissent les champs et les villages en cherchant des gens pour travailler dans la forêt. Une foise les ressources naturelles d'un secteur épuisées, ils les transforment en zones de plantation dont l’accès est limité aux personnes porteuses d’un jeton d’autorisation d’exploitation agricole, qui coûte entre 10000 FC (4 USD) et 15000 FC (6 USD) par carré (50 mètres) et par saison."
+                  action={action} />, et employé comme bûcheron et/ou charbonnier. Celles et ceux qui se soustraient à cette obligation ne peuvent accéder aux ressources nécessaires à leur subsistance à moins de payer des taxes élevées, ou pire, risquent d'être tué.e.s<Button onClick={handleClick}>ꔮ</Button>
                   <Snackbar
                     open={open}
-                    autoHideDuration={10000}
+                    autoHideDuration={25000}
                     onClose={handleCloseNote}
-                    message="Il y a des rapports concernant la mort ou la torture de jeunes gens à Kiseguro, Katwiguru et Nyamilima entre 2022 et 2023. Il s'agit de personnes qui ont refusé de participer au Salongo, ou qui ont refusé de transporter vers les villes le bois récemment exploité ou le charbon de bois (Makala), ou qui ont tenté de cultiver sans jeton d’autorisation d’exploitation agricole. "
+                    message="Il existe des rapports concernant la mort ou la torture de jeunes gens à Kiseguro, Katwiguru et Nyamilima entre 2022 et 2023. Il s'agit de personnes ayant refusé de participer au salongo, de transporter vers les villes le bois récemment exploité ou le charbon de bois (makala), ou qui ont tenté de cultiver sans jeton d’autorisation d’exploitation agricole."
                     action={action} /><br /><br /></Typography>
             </CardContent>
           </FullpageSection>
@@ -198,13 +198,13 @@ const FRFR = () => {
             padding: '1em',
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="sentence" sx={{ mt: 2 }}>Alors que notre peuple est contraint d'être charbonnier, en produisant du MAKALA (charbon de bois), les groupes armés en trafiquent vers les grandes villes, en particulier Goma, la capitale provinciale <Button onClick={handleClick}>ꔮ</Button>
+              <Typography component='div' className="sentence" sx={{ mt: 2 }}>Alors que notre peuple est contraint d'être charbonnier, en produisant du makala (charbon de bois), les groupes armés en trafiquent vers les grandes villes, en particulier Goma, la capitale provinciale <Button onClick={handleClick}>ꔮ</Button>
                 <Snackbar
                   open={open}
                   autoHideDuration={25000}
                   onClose={handleCloseNote}
-                  message="Une fraction de la production de Makala est destinée à la consommation locale de la population riveraine. La majeure est acheminée vers la ville de Goma et d'autres agglomérations urbaines de la province du Nord-Kivu. Ishasha, Nyamilima et Rutshuru sont les principaux chefs lieux où les négociants en makala trafiquent et commercent avec les groupes armés, organisant le transport sur les principaux axes routiers."
-                  action={action} />, avec la complicité de certains hommes d'affaires locaux et de certains chefs locaux<br /><br /></Typography>
+                  message="Une fraction de la production de makala est destinée à la consommation locale de la population riveraine. La majeure est acheminée vers la ville de Goma et d'autres agglomérations urbaines de la province du Nord-Kivu. Ishasha, Nyamilima et Rutshuru sont les principaux chefs lieux où les négociants en makala trafiquent et commercent avec les groupes armés, organisant le transport sur les principaux axes routiers."
+                  action={action} />, avec la complicité de certains hommes d'affaires locaux et chefs locaux<br /><br /></Typography>
             </CardContent>
           </FullpageSection>
 
@@ -221,7 +221,7 @@ const FRFR = () => {
             padding: '1em',
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="sentence" sx={{ mt: 2 }}>Mais le trafic de Makala n'est pas le seul à être contrôlé de manière criminelle. L'accès à toutes les ressources naturelles est taxé, en employant la stratégie des barrières routières illégales, tant sur l'axe Rutshuru-Ishasha que sur les chemins menant aux jardins <Button onClick={handleClick}>ꔮ</Button>
+              <Typography component='div' className="sentence" sx={{ mt: 2 }}>Mais le trafic de makala n'est pas le seul à être contrôlé de manière criminelle. L'accès à toutes les ressources naturelles est taxé, en employant la stratégie des barrières routières illégales, tant sur l'axe Rutshuru-Ishasha que sur les chemins menant aux jardins <Button onClick={handleClick}>ꔮ</Button>
                 <Snackbar
                   open={open}
                   autoHideDuration={25000}
@@ -245,12 +245,12 @@ const FRFR = () => {
             padding: '1em',
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="sentence" sx={{ mt: 2 }}>En détruisant la forêt, nous augmentons nos rencontres avec la faune. Ils accusent notre chasse d'être la cause de l'extinction des espèces vivant dans les forêts, mais c'est le commerce illégal d'espèces sauvages qui est responsable de la décimation des animaux avec lesquels nous cohabitons<Button onClick={handleClick}>ꔮ</Button>
+              <Typography component='div' className="sentence" sx={{ mt: 2 }}>En détruisant la forêt, nous augmentons nos rencontres avec la faune. Les conservationnistes de l'hémisphère nord accusent chasse d'être la cause de l'extinction des espèces vivant dans les forêts, mais c'est le commerce illégal d'espèces sauvages qui est responsable de la décimation des animaux avec lesquels nous cohabitons<Button onClick={handleClick}>ꔮ</Button>
                 <Snackbar
                   open={open}
                   autoHideDuration={25000}
                   onClose={handleCloseNote}
-                  message="On a enregistré des abattages de spécimens de grande valeur dans le cadre du commerce illégal d'espèces sauvages, comme les éléphants (le dernier rapport date de juin 2022 et concerne les environs de Nyamilima). L'ivoire est introduit en contrebande dans les villages situés le long de l'axe Rutshuru-Ishasha, puis transite par Ishasha à moto, découpé et dissimulé dans des caisses de produits agricoles ou Makala par exemple, avant d'être acheminé par bus jusqu'à l'aéroport d'Entebbe, aux mains d'agents ougandais. Un autre itinéraire du commerce illégal d'espèces sauvages est celui qui mène à Goma, puis au Rwanda. La viande, par contre, est vendue par les miliciens à des commerçants destinés aux marchés locaux. "
+                  message="On a enregistré des abattages de spécimens de grande valeur dans le cadre du commerce illégal d'espèces sauvages, comme les éléphants (le dernier rapport date de juin 2022 et concerne les environs de Nyamilima). L'ivoire est introduit en contrebande dans les villages situés le long de l'axe Rutshuru-Ishasha, puis transite par Ishasha à moto, découpé et dissimulé dans des caisses de produits agricoles ou makala par exemple, avant d'être acheminé par bus jusqu'à l'aéroport d'Entebbe, aux mains d'agents ougandais. Un autre itinéraire du commerce illégal d'espèces sauvages est celui qui mène à Goma, puis au Rwanda.  La viande, quant à elle, est vendue par les miliciens à des commerçants destinés aux marchés locaux. "
                   action={action} /><br /><br /></Typography>
             </CardContent>
           </FullpageSection>
@@ -293,12 +293,12 @@ const FRFR = () => {
             padding: '1em',
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="sentence" sx={{ mt: 2 }}>La solution rapide et simple des Occidentaux a été de dessiner et de construire une clôture électrique. L'Institut Congolais pour la Conservation de la Nature a conduit le processus de démarcation de la forêt sous statut de conservation en promettant la participation des communautés locales. Un processus qui ne nous satisfait pas et pour lequel nous ne nous sentons pas écoutés <Button onClick={handleClick}>ꔮ</Button>
+              <Typography component='div' className="sentence" sx={{ mt: 2 }}>La solution rapide et simple des Occidentaux a été de dessiner et de construire une clôture électrique. L'Institut Congolais pour la Conservation de la Nature a conduit le processus de démarcation de la forêt sous statut de conservation en promettant la participation des communautés locales. Ce processus ne nous satisfait pas et dans lequel nous ne nous sentons pas écoutés <Button onClick={handleClick}>ꔮ</Button>
                 <Snackbar
                   open={open}
                   autoHideDuration={25000}
                   onClose={handleCloseNote}
-                  message="Selon les conclusions d’une étude de la commission  chargée de vérifier la démarcation des limites de ce parc réalisée par l’Université Chrétienne Bilingue du Congo avec l’unité de stabilisation de la Monusco présentée le 18 août 2022, les limites actuelles du parc des Virunga telles que présentées par l’ICCN sont légales. Malgré ces conclusions, les habitants vivant au tour du parc trouvent plutôt des lois sur la délimitation ne sont pas réalistes par rapport à la situation actuelle car elles datent de la période coloniale. Les suggestions faites par la population, indiquant d'anciens chemins et rivières, n'ont pas été prises en considération. Au contraire, les délimitations tracées sans discernement sur les cartes dessinées par les Belges en 1925 et qui tombent en poussière dans les archives cartographiques ont été respectées. Tout comme à l'époque, nous n'avons pas été consultés."
+                  message="Selon les conclusions d’une étude de la commission chargée de vérifier la démarcation des limites de ce parc réalisée par l’Université Chrétienne Bilingue du Congo avec l’unité de stabilisation de la Monusco présentée le 18 août 2022, les limites actuelles du parc des Virunga telles que présentées par l’ICCN sont légales. Malgré ces conclusions, les habitants vivant autour du parc trouvent que les lois sur la délimitation ne sont pas réalistes par rapport à la situation actuelle car elles datent de la période coloniale. Les suggestions faites par la population, indiquant d'anciens chemins et rivières, n'ont pas été prises en considération. En revanche, les délimitations tracées sans discernement sur les cartes dessinées par les Belges en 1925 et qui tombent en poussière dans les archives cartographiques ont été respectées. Tout comme à l'époque, nous n'avons pas été consulté.e.s."
                   action={action} /><br /><br /></Typography>
             </CardContent>
           </FullpageSection>
@@ -316,7 +316,7 @@ const FRFR = () => {
             padding: '1em',
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="sentence" sx={{ mt: 2 }}>Cette barrière rompt notre lien physique et spirituel avec la forêt et ses eaux. Elle nous oblige à abandonner la terre sur laquelle se trouvent les tombes de nos ancêtres, à changer notre mode de vie, à migrer vers les villes et les centres pour personnes déplacées</Typography>
+              <Typography component='div' className="sentence" sx={{ mt: 2 }}>Cette barrière rompt notre lien physique et spirituel avec la forêt et ses eaux. Elle nous oblige à abandonner la terre sur laquelle se trouvent les tombes de nos ancêtres, à changer notre mode de vie, à migrer vers les villes et dans des centres pour personnes déplacées</Typography>
             </CardContent>
           </FullpageSection>
 
@@ -335,12 +335,12 @@ const FRFR = () => {
             padding: '1em',
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="sentence" sx={{ mt: 2 }}>Nous sommes exténués à force de fuir les conflits, qui ne portent pas sur les ressources naturelles, car ce sont eux qui les perpétuent, et qui sont plutôt alimentés par la lutte pour le pouvoir et l'influence, tels que l'accès à la terre, à la citoyenneté et à l'identité. Beaucoup d'entre nous n'ont jamais vécu en temps de paix<Button onClick={handleClick}>ꔮ</Button>
+              <Typography component='div' className="sentence" sx={{ mt: 2 }}>Nous sommes exténué.e.s à force de fuir les conflits, qui ne concernent pas l'exploitation des ressources naturelles, c'est-à-dire le mécanisme économique qui perpétue les conflits, mais qui sont plutôt alimentés par la lutte pour le pouvoir et l'influence, comme l'accès à la terre, la citoyenneté et l'identité. Beaucoup d'entre nous n'ont jamais vécu en temps de paix<Button onClick={handleClick}>ꔮ</Button>
                 <Snackbar
                   open={open}
                   autoHideDuration={25000}
                   onClose={handleCloseNote}
-                  message="FDLR-FOCA (Au début des années 2000, les FDLR ont atteint l'apogée de leur puissance militaire et économique, mais elles ont commencé à subir des défections, le RUD-Urunana et les FDLR-Soki se séparant. En 2020, le groupe est dirigé par Omega et Gaby Ruhinda et bénéficie de la scission du NDC-R, se rétablissant lentement dans la région de Bwito et Bwisha avec l'aide de son principal allié, la CMC). RUD-Urunana (Le RUD-Urunana est une faction dissidente des FDLR-FOCA apparue en 2007 à la suite d'une querelle de leadership, qui aurait porté sur la distribution de fonds. Il a été actif dans les parties nord des chefferies de Bwisha et de Bwito dans le territoire de Rutshuru. Bien que l'influence militaire du RUD ait progressivement diminué ces dernières années, le groupe aurait collaboré avec différents groupes armés, y compris les FDLR-FOCA et les milices hutu congolaises). Nyatura FPPH (Le terme Nyatura, qui signifie 'ceux qui frappent fort' en kinyarwanda, est apparu en association avec la mobilisation armée dans la communauté hutu congolaise vers 2011. Les FFPH sont constituées de restes d'anciens groupes Nyatura et de l'ancienne branche des FDLR dirigée par Soki et Kasongo jusqu'à environ 2016. Opérant principalement à Binza, Rutshuru, les FPP-H se livrent à des enlèvements et à la taxation). Amka Jeshi (Amka Jeshi est apparu en mai 2020 à partir d'un groupe de jeunes Nande basé à Kiwanja et dirigé par Kasereka Celestin. Il prétend défendre les Nande dans le nord de Rutshuru contre les FDLR et les Nyatura et coopère avec les FARDC en organisant des patrouilles autour de Kiwanja). AFRC (Charles Bokande est devenu un acteur armé important dans le nord du territoire de Rutshuru en 2014, bénéficiant du soutien et des recrues de la communauté Nande. Charles a développé des réseaux d'extorsion efficaces le long de la rive sud du lac Édouard, taxant les camps de pêche lucratifs. Son influence s'est étendue à Nyamilima et au poste frontière d'Ishasha avec l'Ouganda. Sous Charles, le groupe est également connu sous le nom d'Alliance des forces armées de résistants patriotes Mai-Mai (AFARPM). Alors que Charles prétend protéger la population Nande de Rutshuru des groupes armés rwandophones, des FARDC et des gardes forestiers du parc national des Virunga, le groupe s'est aussi souvent livré à des enlèvements et à des échanges transfrontaliers illégaux). Mai-Mai Jackson MFP (En 2020, Jackson Muhukambuto, rebelle de longue date et ancien commandant des FARDC, a créé une nouvelle milice dans le nord de Rutshuru et le sud de Lubero. Ayant rejoint et quitté l'armée à plusieurs reprises, Jackson dispose de solides réseaux au sein de l'armée et parmi les entrepreneurs armés Nande)."
+                  message="FDLR-FOCA (Au début des années 2000, les FDLR ont atteint l'apogée de leur puissance militaire et économique, mais elles ont commencé à subir des défections, le RUD-Urunana et les FDLR-Soki se séparant. En 2020, le groupe est dirigé par Omega et Gaby Ruhinda et bénéficie de la scission du NDC-R, se rétablissant lentement dans la région de Bwito et Bwisha avec l'aide de son principal allié, la CMC). RUD-Urunana (Le RUD-Urunana est une faction dissidente des FDLR-FOCA apparue en 2007 à la suite d'une querelle de leadership, qui aurait porté sur la distribution de fonds. Il a été actif dans les parties nord des chefferies de Bwisha et de Bwito dans le territoire de Rutshuru. Bien que l'influence militaire du RUD ait progressivement diminué ces dernières années, le groupe aurait collaboré avec différents groupes armés, y compris les FDLR-FOCA et les milices hutu congolaises). Nyatura FPPH (Le terme Nyatura, qui signifie 'ceux qui frappent fort' en kinyarwanda, est apparu en association avec la mobilisation armée dans la communauté hutu congolaise vers 2011. Les FFPH sont constituées de restes d'anciens groupes Nyatura et de l'ancienne branche des FDLR dirigée par Soki et Kasongo jusqu'à environ 2016. Opérant principalement à Binza, Rutshuru, les FPP-H se livrent aux enlèvements et à la taxation). Amka Jeshi (Amka Jeshi est apparu en mai 2020 à partir d'un groupe de jeunes Nande basé à Kiwanja et dirigé par Kasereka Celestin. Il prétend défendre les Nande dans le nord de Rutshuru contre les FDLR et les Nyatura et coopère avec les FARDC en organisant des patrouilles autour de Kiwanja). AFRC (Charles Bokande est devenu un acteur armé important dans le nord du territoire de Rutshuru en 2014, bénéficiant du soutien et des recrues de la communauté Nande. Charles a développé des réseaux d'extorsion efficaces le long de la rive sud du lac Édouard, en taxant les camps de pêche lucratifs. Son influence s'est étendue à Nyamilima et au poste frontière d'Ishasha avec l'Ouganda. Sous Charles, le groupe est également connu sous le nom d'Alliance des forces armées de résistants patriotes Mai-Mai (AFARPM). Alors que Charles prétend protéger la population Nande de Rutshuru des groupes armés rwandophones, des FARDC et des gardes forestiers du parc national des Virunga, le groupe s'est aussi souvent livré à des enlèvements et à des échanges transfrontaliers illégaux). Mai-Mai Jackson MFP (En 2020, Jackson Muhukambuto, rebelle de longue date et ancien commandant des FARDC, a créé une nouvelle milice dans le nord de Rutshuru et le sud de Lubero. Ayant rejoint et quitté l'armée à plusieurs reprises, Jackson dispose de solides réseaux au sein de l'armée et parmi les entrepreneurs armés Nande)."
                   action={action} /><Button onClick={handleClick}>MAP</Button>
                 <Snackbar
                   open={open}
@@ -365,7 +365,7 @@ const FRFR = () => {
             padding: '1em',
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="sentence" sx={{ mt: 2 }}>Et c'est nous, les femmes, qui souffrons le plus du manque d'accès aux ressources forestières, de la dégradation des écosystèmes, des effets du système oppressif des conflits, étant volées, violées et tuées alors qu'elles cherchent de l'eau et des vivres, du bois pour s'abriter, cuisiner et se chauffer, devant peut-être voyager des heures durant la nuit pour trouver une fontaine avec de l'eau, alors qu'autour de nous, nous assistons à la destruction de la forêt</Typography>
+              <Typography component='div' className="sentence" sx={{ mt: 2 }}>Ce sont nous, les femmes, qui souffrons le plus du manque d'accès aux ressources forestières, de la dégradation des écosystèmes, des effets du système oppressif des conflits. Nous sommes volées, violées et tuées alors que nous cherchons de l'eau et des vivres, du bois pour s'abriter, cuisiner et se chauffer. Nous sommes souvent obligés de voyager pendant des heures la nuit pour trouver une fontaine d'eau en espérant ne pas croiser le chemin de violeurs et d'assassins, tandis que nous assistons à la destruction de la forêt autour de nous</Typography>
             </CardContent>
           </FullpageSection>
 

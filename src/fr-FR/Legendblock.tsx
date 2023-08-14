@@ -64,7 +64,7 @@ export default function Legendblock() {
             <Typography>
             <b>Barrières routières physiques et virtuelles</b><br /><br />
             <div className='blockW'></div>Barrières routières documentées depuis 2023 et contrôlées par les Wazalendo. Principalement destiné à la taxation du passage et au recrutement de locaux pour le salongo, le Wazalendo taxe également l'accès aux ressources naturelles et l'évacuation des ressources exploitées.<br /><br />
-            <div className='blockN'></div>Barrières routières documentées depuis 2017 assurent la taxation de toutes les ressources naturelles, réglemente l'accès aux ressources et l'évacuation des ressources exploitées<br /><br />
+            <div className='blockN'></div>Barrières routières documentées depuis 2017, qui assurent la taxation de toutes les ressources naturelles, réglementent l'accès aux ressources et l'évacuation des ressources exploitées<br /><br />
             <div className='blockF'></div>Barrières routières documentées depuis 2017 et contrôlées par des groupes armés (FARDC, FDLR,  Nyatura FPPH). Ces barrières assurent la taxation des makala et des planches en contrôlant les bûcherons, les charbonniers et les vendeurs de charbon<br /><br />
             </Typography>
           </Box>
