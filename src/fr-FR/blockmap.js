@@ -22,12 +22,13 @@ const Blockmap = () => {
 
             <CardContent sx={{ maxWidth: 300 }}>
                 <Typography component='div' className="titleh2" sx={{ mt: 2 }}>TAXATION DU CIRCUIT DU MAKALA ET DES RESSOURCES NATURELLES
-                    <Typography component='div' className="notemap" sx={{ mt: 2 }}><a href='https://www.alessandromusetta.com/geo/tiles/60point8/block/map.html' target='_blank' rel='noopener noreferrer'>Consulter la carte interactive</a></Typography>
+                    {/* <Typography component='div' className="notemap" sx={{ mt: 2 }}><a href='https://www.alessandromusetta.com/geo/tiles/60point8/block/map.html' target='_blank' rel='noopener noreferrer'>Consulter la carte interactive</a></Typography> */}
+                    <Legendblock />
                 </Typography>
             </CardContent>
 
 
-            <MapContainer
+            {/* <MapContainer
                 doubleClickZoom={false}
                 center={center}
                 zoom={12}
@@ -44,9 +45,7 @@ const Blockmap = () => {
 
                 <ZoomControl position="bottomright" />
 
-            </MapContainer>
-
-            <Legendblock />
+            </MapContainer> */}
 
 
         </>

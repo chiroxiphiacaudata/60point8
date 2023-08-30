@@ -10,7 +10,7 @@ import Legendfence from './Legendfence.tsx';
 
 const Fencemap = () => {
 
-    const center = [-0.9558, 29.4947];
+    const center = [-0.8829280679712995, 29.506408240442255];
     const outerbounds = [
         [-1.2185696079035546, 29.37390439243266],
         [-0.6869623240320794, 29.677079926105765],

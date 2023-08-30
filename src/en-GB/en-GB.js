@@ -209,7 +209,7 @@ const ENGB = () => {
             </CardContent>
           </FullpageSection>
 
-          <FullpageSection style={{
+          <FullpageSection className='blockimage' style={{
             backgroundColor: 'rgba(221, 229, 217, 1)',
             height: '100vh',
             padding: '1em',

@@ -30,7 +30,7 @@ const Defmap = () => {
             <MapContainer
                 doubleClickZoom={false}
                 center={center}
-                zoom={13}
+                zoom={12}
                 scrollWheelZoom={false}
                 zoomControl={false}
                 minZoom={12}
