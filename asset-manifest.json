@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/60point8/static/css/main.c1c80347.css",
-    "main.js": "/60point8/static/js/main.25598117.js",
+    "main.js": "/60point8/static/js/main.a29cf634.js",
     "static/js/787.0961753b.chunk.js": "/60point8/static/js/787.0961753b.chunk.js",
     "static/media/mangifera.png": "/60point8/static/media/mangifera.f2884f86947f69b878e8.png",
     "static/media/leucaena.png": "/60point8/static/media/leucaena.ce1ac8e677a7dbbe47e2.png",
@@ -43,11 +43,11 @@
     "static/media/license.png": "/60point8/static/media/license.e59b26f6a65b9db62117.png",
     "index.html": "/60point8/index.html",
     "main.c1c80347.css.map": "/60point8/static/css/main.c1c80347.css.map",
-    "main.25598117.js.map": "/60point8/static/js/main.25598117.js.map",
+    "main.a29cf634.js.map": "/60point8/static/js/main.a29cf634.js.map",
     "787.0961753b.chunk.js.map": "/60point8/static/js/787.0961753b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c1c80347.css",
-    "static/js/main.25598117.js"
+    "static/js/main.a29cf634.js"
   ]
 }
