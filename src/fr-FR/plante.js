@@ -38,7 +38,7 @@ const Plante = () => {
     return (
 
         <><CardContent sx={{ maxWidth: 800 }}>
-            <Typography component='div' className="sentence" sx={{ mt: 2 }}>Cette destruction, dont nous sommes complices et victimes, rompt la continuité avec notre mode de vie traditionnel et nos connaissances ancestrales en matière de ressources biologiques et de gestion agroforestière<br /><br /></Typography>
+            <Typography component='div' className="sentence" sx={{ mt: 2 }}>Cette destruction, dont nous sommes complices et victimes, rompt la continuité avec notre mode de vie traditionnel et nos connaissances ancestrales en matière de ressources biologiques et de gestion agroforestière. Dans le futur, les connaissances pour une bonne gestion de ces ressources sera perdue<br /><br /></Typography>
         </CardContent>
 
             <Accordion defaultExpanded={true}>
@@ -50,7 +50,7 @@ const Plante = () => {
                     <Typography sx={{ fontSize: "11px !important", WebkitTextFillColor: "rgb(105, 105, 105) !important" }} className="fishChallenges">LISTE DES ARBRES AVEC UNE DISTINCTE CONNAISSANCE ANCESTRALE</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                    <TableContainer component={Paper} sx={{ maxHeight: 250, overflow: 'auto' }}>
+                    <TableContainer component={Paper} sx={{ maxHeight: 200, overflow: 'auto' }}>
                         <Table stickyHeader sx={{ minWidth: 1000, fontSize: 13.5, fontWeight: "900 !important", }} aria-label="sticky table">
                                 <TableHead>
                                     <TableRow >

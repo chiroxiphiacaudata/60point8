@@ -75,7 +75,7 @@ const ENGB = () => {
             padding: '1em',
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="sentence" sx={{ mt: 2 }}>We, the Hutu, Nande, Hunde, Tusti and Pygmee, the earth defenders of the Bwisha chiefdom, denounce the forced loss of our biological resources, our cultural heritage and our food sovereignty in the north of the Rutshuru territory<Button onClick={handleClick}>ꔮ</Button>
+              <Typography component='div' className="sentence" sx={{ mt: 2 }}>We, the Hutus, Nandes, Hundes, Tustis and Pygmées, the Earth defenders of the Bwisha chiefdom, denounce the forced loss of our biological resources, our cultural heritage and our food sovereignty in the north of the Rutshuru territory<Button onClick={handleClick}>ꔮ</Button>
                 <Snackbar
                   open={open}
                   autoHideDuration={25000}
