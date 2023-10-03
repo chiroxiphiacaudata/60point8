@@ -2,6 +2,7 @@ import '../App.css';
 import * as React from "react"
 import Fullpage, { FullPageSections, FullpageSection, FullpageNavigation } from '@ap.cx/react-fullpage';
 import { Link } from 'react-router-dom';
+import ReactPlayer from 'react-player';
 
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
@@ -100,6 +101,20 @@ const ENGB = () => {
             </CardContent>
           </FullpageSection>
 
+          <FullpageSection style={{
+            height: '85vh',
+          }}>
+            <ReactPlayer  width='100%' height='100%' playing={true} muted={true} loop={true} controls url="https://www.alessandromusetta.com/geo/tiles/60point8/data/60point8_1.mp4" />
+          </FullpageSection>
+
+          <FullpageSection style={{
+            backgroundColor: 'rgba(221, 229, 217, 1)',
+            height: '100vh',
+            padding: '1em',
+          }}>
+            <Defmap />
+          </FullpageSection>
+
           <FullpageSection className='planches' style={{
             height: '80vh',
             padding: '1em',
@@ -128,14 +143,6 @@ const ENGB = () => {
                   message="Reports have emerged about the death or torture of young people in Kiseguro, Katwiguru and Nyamilima between 2022 and 2023. The victims were people who had refused to take part in the salongo, or who had refused to transport freshly logged timber or charcoal (makala) to the towns, or who had attempted to farm without a farming permit token. "
                   action={action} /><br /><br /></Typography>
             </CardContent>
-          </FullpageSection>
-
-          <FullpageSection style={{
-            backgroundColor: 'rgba(221, 229, 217, 1)',
-            height: '100vh',
-            padding: '1em',
-          }}>
-            <Defmap />
           </FullpageSection>
 
           <FullpageSection className='routedef' style={{

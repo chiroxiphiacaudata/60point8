@@ -109,6 +109,10 @@ background: rgba(221, 229, 217, 1) !important;
   }
 }
 
+video {
+  object-fit: cover!important;
+}
+
 .sentence {
   font-family: 'IBM Plex Mono', monospace !important;
   -webkit-font-smoothing: antialiased;

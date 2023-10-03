@@ -2,6 +2,7 @@ import '../App.css';
 import * as React from "react"
 import Fullpage, { FullPageSections, FullpageSection, FullpageNavigation } from '@ap.cx/react-fullpage';
 import { Link } from 'react-router-dom';
+import ReactPlayer from 'react-player';
 
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
@@ -99,13 +100,18 @@ const FRFR = () => {
             </CardContent>
           </FullpageSection>
 
-          <FullpageSection className='planches' style={{
-            height: '80vh',
+          <FullpageSection style={{
+            height: '85vh',
+          }}>
+            <ReactPlayer  width='100%' height='100%' playing={true} muted={true} loop={true} controls url="https://www.alessandromusetta.com/geo/tiles/60point8/data/60point8_1.mp4" />
+          </FullpageSection>
+
+          <FullpageSection style={{
+            backgroundColor: 'rgba(221, 229, 217, 1)',
+            height: '100vh',
             padding: '1em',
           }}>
-            <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' sx={{ mt: 1, fontSize: 9, fontFamily: 'IBM Plex Mono' }}>Danny TORRES, Leopold RUTINIGIRWA, Anoumou KEMAVO, Thomas DUFOUR, Maxence RAGEADE</Typography>
-            </CardContent>
+            <Defmap />
           </FullpageSection>
 
           <FullpageSection style={{
@@ -119,7 +125,7 @@ const FRFR = () => {
                   autoHideDuration={25000}
                   onClose={handleCloseNote}
                   message="Sous le contrôle de groupes armés criminels, tels que les FDLR-FOCA et récemment, après l'invasion d'octobre 2022 par le M23, sous le contrôle de les résistants patriotes connus sous le nom de Wazalendo. Ils contrôlent la forêt et les zones rurales en se divisant en petits groupes de 3 à 4 miliciens, et supervisent leur exploration et leur exploitation. Ils ratissent les champs et les villages en cherchant des gens pour travailler dans la forêt. Une foise les ressources naturelles d'un secteur épuisées, ils les transforment en zones de plantation dont l’accès est limité aux personnes porteuses d’un jeton d’autorisation d’exploitation agricole, coûtant entre 10000 FC (4 USD) et 15000 FC (6 USD) pour 50 mètres et par saison."
-                  action={action} />, et doivent travailler comme bûcheron et ou charbonnier. Celles et ceux qui se soustraient à cette obligation ne peuvent accéder aux ressources nécessaires à leur subsistance à moins de payer des taxes élevées en contrepartie, et s’ils et elles s’y soustraient, peuvent être assassiné.e.s<Button onClick={handleClick}>ꔮ</Button>
+                  action={action} />, et doivent travailler comme bûcheron et ou charbonnier. Celles et ceux qui se soustraient à cette obligation ne peuvent accéder aux ressources nécessaires à leur subsistance à moins de payer des taxes élevées en contrepartie, et s’ils et elles s’y soustraient, peuvent être assassinés<Button onClick={handleClick}>ꔮ</Button>
                   <Snackbar
                     open={open}
                     autoHideDuration={25000}
@@ -129,12 +135,13 @@ const FRFR = () => {
             </CardContent>
           </FullpageSection>
 
-          <FullpageSection style={{
-            backgroundColor: 'rgba(221, 229, 217, 1)',
-            height: '100vh',
+          <FullpageSection className='planches' style={{
+            height: '80vh',
             padding: '1em',
           }}>
-            <Defmap />
+            <CardContent sx={{ maxWidth: 800 }}>
+              <Typography component='div' sx={{ mt: 1, fontSize: 9, fontFamily: 'IBM Plex Mono' }}>Danny TORRES, Leopold RUTINIGIRWA, Anoumou KEMAVO, Thomas DUFOUR, Maxence RAGEADE</Typography>
+            </CardContent>
           </FullpageSection>
 
           <FullpageSection className='routedef' style={{
@@ -245,7 +252,7 @@ const FRFR = () => {
             padding: '1em',
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="sentence" sx={{ mt: 2 }}>En détruisant la forêt, les conflits entre humains et la faune se font plus réguliers. Les conservationnistes de l'hémisphère nord accusent chasse d'être la cause de l'extinction des espèces vivant dans les forêts, mais c'est le commerce illégal d'espèces sauvages qui est responsable de la décimation des animaux avec lesquels nous cohabitons<Button onClick={handleClick}>ꔮ</Button>
+              <Typography component='div' className="sentence" sx={{ mt: 2 }}>En détruisant la forêt, les conflits entre humains et la faune se font plus réguliers. Les conservationnistes de l'hémisphère nord accusent la chasse d'être la cause de l'extinction des espèces vivant dans les forêts, mais c'est le commerce illégal d'espèces sauvages qui est responsable de la décimation des animaux avec lesquels nous cohabitons<Button onClick={handleClick}>ꔮ</Button>
                 <Snackbar
                   open={open}
                   autoHideDuration={25000}
